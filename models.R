@@ -48,10 +48,6 @@ selected.models<-c('classif.randomForest',
                    'classif.svm','classif.boosting')
 
 
-# Quick & dirty analysis of the ML algorithms
-
-i<-1
-for(chosen.model in selected.models){
 # Performance Measures
 chosen.measures<-list(acc,
                       mmce,
@@ -62,6 +58,12 @@ chosen.measures<-list(acc,
                       auc,
                       logloss,
                       timetrain)
+
+# Quick & dirty analysis of the ML algorithms
+
+i<-1
+for(chosen.model in selected.models){
+
 
 
 # ####################################
