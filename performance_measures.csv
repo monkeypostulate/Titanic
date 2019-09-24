@@ -1,0 +1,20 @@
+﻿NameR;Name;Description
+acc;Accuracy;The number of correct predictions made divided by the total number of predictions made
+mmce;Mean misclassification error;1-Accuracy
+ppv;Precision/Positive predictive value;Precision helps when the costs of false positives are high.
+tpr;Recall/Sensitivity/ True positive rate;Recall helps when the cost of false negatives is high
+f1;F1 measure;Harmonic mean of precision and recall. Harmonic mean is appropriate for situations when the average of rates is desired.
+gpr;Geometric mean of precision and recall;A geometric mean is often used when comparing different items when each item has multiple properties that have different numeric ranges
+;ROC Curve;the true positive rate (Sensitivity) is plotted in function of the false positive rate (100-Specificity) for different cut-off points of a parameter.
+auc;Area under the curve;Measure of how well a parameter can distinguish between two diagnostic groups
+logloss;Logarithmic loss (logloss);A perfect model would have a log loss of 0. Log loss increases as the predicted probability diverges from the actual label.
+;Time to train;
+;Confusion Matrix;Table   used to describe the performance of a classification model 
+kappa;Cohen's kappa;
+bac;Balanced accuracy;
+brier;Brier score;
+;;
+;False positives;
+;False positive rate;
+;False negative;
+;False negative rate;

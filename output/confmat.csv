@@ -1,0 +1,3031 @@
+"","model","measure","threshold","perf"
+"1","Adaboost","fn",0,0
+"2","Adaboost","fn",0.01,0
+"3","Adaboost","fn",0.02,0
+"4","Adaboost","fn",0.03,0
+"5","Adaboost","fn",0.04,0
+"6","Adaboost","fn",0.05,0
+"7","Adaboost","fn",0.06,0
+"8","Adaboost","fn",0.07,0
+"9","Adaboost","fn",0.08,0
+"10","Adaboost","fn",0.09,0
+"11","Adaboost","fn",0.1,0
+"12","Adaboost","fn",0.11,0
+"13","Adaboost","fn",0.12,0
+"14","Adaboost","fn",0.13,0
+"15","Adaboost","fn",0.14,0
+"16","Adaboost","fn",0.15,0
+"17","Adaboost","fn",0.16,0
+"18","Adaboost","fn",0.17,0
+"19","Adaboost","fn",0.18,0
+"20","Adaboost","fn",0.19,0
+"21","Adaboost","fn",0.2,0
+"22","Adaboost","fn",0.21,0
+"23","Adaboost","fn",0.22,0
+"24","Adaboost","fn",0.23,0
+"25","Adaboost","fn",0.24,0
+"26","Adaboost","fn",0.25,0
+"27","Adaboost","fn",0.26,0
+"28","Adaboost","fn",0.27,0
+"29","Adaboost","fn",0.28,0
+"30","Adaboost","fn",0.29,0
+"31","Adaboost","fn",0.3,0
+"32","Adaboost","fn",0.31,0
+"33","Adaboost","fn",0.32,0
+"34","Adaboost","fn",0.33,0
+"35","Adaboost","fn",0.34,0
+"36","Adaboost","fn",0.35,0
+"37","Adaboost","fn",0.36,0
+"38","Adaboost","fn",0.37,0
+"39","Adaboost","fn",0.38,0
+"40","Adaboost","fn",0.39,0
+"41","Adaboost","fn",0.4,0
+"42","Adaboost","fn",0.41,0
+"43","Adaboost","fn",0.42,0
+"44","Adaboost","fn",0.43,0
+"45","Adaboost","fn",0.44,0
+"46","Adaboost","fn",0.45,0
+"47","Adaboost","fn",0.46,0
+"48","Adaboost","fn",0.47,0
+"49","Adaboost","fn",0.48,0
+"50","Adaboost","fn",0.49,1
+"51","Adaboost","fn",0.5,1
+"52","Adaboost","fn",0.51,2.5
+"53","Adaboost","fn",0.52,5
+"54","Adaboost","fn",0.53,6.5
+"55","Adaboost","fn",0.54,7
+"56","Adaboost","fn",0.55,10.5
+"57","Adaboost","fn",0.56,15
+"58","Adaboost","fn",0.57,20.5
+"59","Adaboost","fn",0.58,28.5
+"60","Adaboost","fn",0.59,38
+"61","Adaboost","fn",0.6,46.5
+"62","Adaboost","fn",0.61,49.5
+"63","Adaboost","fn",0.62,52.5
+"64","Adaboost","fn",0.63,62.5
+"65","Adaboost","fn",0.64,66.5
+"66","Adaboost","fn",0.65,74
+"67","Adaboost","fn",0.66,84
+"68","Adaboost","fn",0.67,87
+"69","Adaboost","fn",0.68,93.5
+"70","Adaboost","fn",0.69,99
+"71","Adaboost","fn",0.7,104
+"72","Adaboost","fn",0.71,107
+"73","Adaboost","fn",0.72,110.5
+"74","Adaboost","fn",0.73,113.5
+"75","Adaboost","fn",0.74,117
+"76","Adaboost","fn",0.75,124
+"77","Adaboost","fn",0.76,128.5
+"78","Adaboost","fn",0.77,132
+"79","Adaboost","fn",0.78,133
+"80","Adaboost","fn",0.79,134
+"81","Adaboost","fn",0.8,135
+"82","Adaboost","fn",0.81,136.5
+"83","Adaboost","fn",0.82,137
+"84","Adaboost","fn",0.83,137
+"85","Adaboost","fn",0.84,137
+"86","Adaboost","fn",0.85,137
+"87","Adaboost","fn",0.86,137
+"88","Adaboost","fn",0.87,137
+"89","Adaboost","fn",0.88,137
+"90","Adaboost","fn",0.89,137
+"91","Adaboost","fn",0.9,137
+"92","Adaboost","fn",0.91,137
+"93","Adaboost","fn",0.92,137
+"94","Adaboost","fn",0.93,137
+"95","Adaboost","fn",0.94,137
+"96","Adaboost","fn",0.95,137
+"97","Adaboost","fn",0.96,137
+"98","Adaboost","fn",0.97,137
+"99","Adaboost","fn",0.98,137
+"100","Adaboost","fn",0.99,137
+"101","Adaboost","fn",1,137
+"102","Adaboost","fp",0,86
+"103","Adaboost","fp",0.01,86
+"104","Adaboost","fp",0.02,86
+"105","Adaboost","fp",0.03,86
+"106","Adaboost","fp",0.04,86
+"107","Adaboost","fp",0.05,86
+"108","Adaboost","fp",0.06,86
+"109","Adaboost","fp",0.07,86
+"110","Adaboost","fp",0.08,86
+"111","Adaboost","fp",0.09,86
+"112","Adaboost","fp",0.1,86
+"113","Adaboost","fp",0.11,86
+"114","Adaboost","fp",0.12,86
+"115","Adaboost","fp",0.13,86
+"116","Adaboost","fp",0.14,86
+"117","Adaboost","fp",0.15,86
+"118","Adaboost","fp",0.16,85.5
+"119","Adaboost","fp",0.17,84
+"120","Adaboost","fp",0.18,84
+"121","Adaboost","fp",0.19,84
+"122","Adaboost","fp",0.2,83
+"123","Adaboost","fp",0.21,81
+"124","Adaboost","fp",0.22,79.5
+"125","Adaboost","fp",0.23,78.5
+"126","Adaboost","fp",0.24,78
+"127","Adaboost","fp",0.25,75.5
+"128","Adaboost","fp",0.26,71
+"129","Adaboost","fp",0.27,67.5
+"130","Adaboost","fp",0.28,65.5
+"131","Adaboost","fp",0.29,63
+"132","Adaboost","fp",0.3,60.5
+"133","Adaboost","fp",0.31,60
+"134","Adaboost","fp",0.32,58
+"135","Adaboost","fp",0.33,56
+"136","Adaboost","fp",0.34,54
+"137","Adaboost","fp",0.35,51
+"138","Adaboost","fp",0.36,47
+"139","Adaboost","fp",0.37,43.5
+"140","Adaboost","fp",0.38,39.5
+"141","Adaboost","fp",0.39,36
+"142","Adaboost","fp",0.4,32.5
+"143","Adaboost","fp",0.41,30.5
+"144","Adaboost","fp",0.42,26
+"145","Adaboost","fp",0.43,19
+"146","Adaboost","fp",0.44,18
+"147","Adaboost","fp",0.45,12.5
+"148","Adaboost","fp",0.46,12
+"149","Adaboost","fp",0.47,9.5
+"150","Adaboost","fp",0.48,6.5
+"151","Adaboost","fp",0.49,5
+"152","Adaboost","fp",0.5,3.5
+"153","Adaboost","fp",0.51,1.5
+"154","Adaboost","fp",0.52,1
+"155","Adaboost","fp",0.53,1
+"156","Adaboost","fp",0.54,0.5
+"157","Adaboost","fp",0.55,0
+"158","Adaboost","fp",0.56,0
+"159","Adaboost","fp",0.57,0
+"160","Adaboost","fp",0.58,0
+"161","Adaboost","fp",0.59,0
+"162","Adaboost","fp",0.6,0
+"163","Adaboost","fp",0.61,0
+"164","Adaboost","fp",0.62,0
+"165","Adaboost","fp",0.63,0
+"166","Adaboost","fp",0.64,0
+"167","Adaboost","fp",0.65,0
+"168","Adaboost","fp",0.66,0
+"169","Adaboost","fp",0.67,0
+"170","Adaboost","fp",0.68,0
+"171","Adaboost","fp",0.69,0
+"172","Adaboost","fp",0.7,0
+"173","Adaboost","fp",0.71,0
+"174","Adaboost","fp",0.72,0
+"175","Adaboost","fp",0.73,0
+"176","Adaboost","fp",0.74,0
+"177","Adaboost","fp",0.75,0
+"178","Adaboost","fp",0.76,0
+"179","Adaboost","fp",0.77,0
+"180","Adaboost","fp",0.78,0
+"181","Adaboost","fp",0.79,0
+"182","Adaboost","fp",0.8,0
+"183","Adaboost","fp",0.81,0
+"184","Adaboost","fp",0.82,0
+"185","Adaboost","fp",0.83,0
+"186","Adaboost","fp",0.84,0
+"187","Adaboost","fp",0.85,0
+"188","Adaboost","fp",0.86,0
+"189","Adaboost","fp",0.87,0
+"190","Adaboost","fp",0.88,0
+"191","Adaboost","fp",0.89,0
+"192","Adaboost","fp",0.9,0
+"193","Adaboost","fp",0.91,0
+"194","Adaboost","fp",0.92,0
+"195","Adaboost","fp",0.93,0
+"196","Adaboost","fp",0.94,0
+"197","Adaboost","fp",0.95,0
+"198","Adaboost","fp",0.96,0
+"199","Adaboost","fp",0.97,0
+"200","Adaboost","fp",0.98,0
+"201","Adaboost","fp",0.99,0
+"202","Adaboost","fp",1,0
+"203","Adaboost","ppv",0,0.61
+"204","Adaboost","ppv",0.01,0.61
+"205","Adaboost","ppv",0.02,0.61
+"206","Adaboost","ppv",0.03,0.61
+"207","Adaboost","ppv",0.04,0.61
+"208","Adaboost","ppv",0.05,0.61
+"209","Adaboost","ppv",0.06,0.61
+"210","Adaboost","ppv",0.07,0.61
+"211","Adaboost","ppv",0.08,0.61
+"212","Adaboost","ppv",0.09,0.61
+"213","Adaboost","ppv",0.1,0.61
+"214","Adaboost","ppv",0.11,0.61
+"215","Adaboost","ppv",0.12,0.61
+"216","Adaboost","ppv",0.13,0.61
+"217","Adaboost","ppv",0.14,0.61
+"218","Adaboost","ppv",0.15,0.61
+"219","Adaboost","ppv",0.16,0.615
+"220","Adaboost","ppv",0.17,0.62
+"221","Adaboost","ppv",0.18,0.62
+"222","Adaboost","ppv",0.19,0.62
+"223","Adaboost","ppv",0.2,0.62
+"224","Adaboost","ppv",0.21,0.63
+"225","Adaboost","ppv",0.22,0.63
+"226","Adaboost","ppv",0.23,0.635
+"227","Adaboost","ppv",0.24,0.64
+"228","Adaboost","ppv",0.25,0.645
+"229","Adaboost","ppv",0.26,0.66
+"230","Adaboost","ppv",0.27,0.67
+"231","Adaboost","ppv",0.28,0.675
+"232","Adaboost","ppv",0.29,0.68
+"233","Adaboost","ppv",0.3,0.695
+"234","Adaboost","ppv",0.31,0.7
+"235","Adaboost","ppv",0.32,0.7
+"236","Adaboost","ppv",0.33,0.71
+"237","Adaboost","ppv",0.34,0.715
+"238","Adaboost","ppv",0.35,0.725
+"239","Adaboost","ppv",0.36,0.745
+"240","Adaboost","ppv",0.37,0.76
+"241","Adaboost","ppv",0.38,0.775
+"242","Adaboost","ppv",0.39,0.795
+"243","Adaboost","ppv",0.4,0.81
+"244","Adaboost","ppv",0.41,0.82
+"245","Adaboost","ppv",0.42,0.845
+"246","Adaboost","ppv",0.43,0.875
+"247","Adaboost","ppv",0.44,0.88
+"248","Adaboost","ppv",0.45,0.915
+"249","Adaboost","ppv",0.46,0.92
+"250","Adaboost","ppv",0.47,0.935
+"251","Adaboost","ppv",0.48,0.955
+"252","Adaboost","ppv",0.49,0.96
+"253","Adaboost","ppv",0.5,0.975
+"254","Adaboost","ppv",0.51,0.99
+"255","Adaboost","ppv",0.52,0.99
+"256","Adaboost","ppv",0.53,0.99
+"257","Adaboost","ppv",0.54,0.995
+"258","Adaboost","ppv",0.55,1
+"259","Adaboost","ppv",0.56,1
+"260","Adaboost","ppv",0.57,1
+"261","Adaboost","ppv",0.58,1
+"262","Adaboost","ppv",0.59,1
+"263","Adaboost","ppv",0.6,1
+"264","Adaboost","ppv",0.61,1
+"265","Adaboost","ppv",0.62,1
+"266","Adaboost","ppv",0.63,1
+"267","Adaboost","ppv",0.64,1
+"268","Adaboost","ppv",0.65,1
+"269","Adaboost","ppv",0.66,1
+"270","Adaboost","ppv",0.67,1
+"271","Adaboost","ppv",0.68,1
+"272","Adaboost","ppv",0.69,1
+"273","Adaboost","ppv",0.7,1
+"274","Adaboost","ppv",0.71,1
+"275","Adaboost","ppv",0.72,1
+"276","Adaboost","ppv",0.73,1
+"277","Adaboost","ppv",0.74,1
+"278","Adaboost","ppv",0.75,1
+"279","Adaboost","ppv",0.76,1
+"280","Adaboost","ppv",0.77,1
+"281","Adaboost","ppv",0.78,1
+"282","Adaboost","ppv",0.79,1
+"283","Adaboost","ppv",0.8,1
+"284","Adaboost","ppv",0.81,1
+"285","Adaboost","ppv",0.82,1
+"286","Adaboost","ppv",0.83,1
+"287","Adaboost","ppv",0.84,1
+"288","Adaboost","ppv",0.85,1
+"289","Adaboost","ppv",0.86,1
+"290","Adaboost","ppv",0.87,1
+"291","Adaboost","ppv",0.88,1
+"292","Adaboost","ppv",0.89,1
+"293","Adaboost","ppv",0.9,1
+"294","Adaboost","ppv",0.91,1
+"295","Adaboost","ppv",0.92,1
+"296","Adaboost","ppv",0.93,1
+"297","Adaboost","ppv",0.94,1
+"298","Adaboost","ppv",0.95,1
+"299","Adaboost","ppv",0.96,1
+"300","Adaboost","ppv",0.97,1
+"301","Adaboost","ppv",0.98,1
+"302","Adaboost","ppv",0.99,1
+"303","Adaboost","ppv",1,1
+"304","Adaboost","tn",0,0
+"305","Adaboost","tn",0.01,0
+"306","Adaboost","tn",0.02,0
+"307","Adaboost","tn",0.03,0
+"308","Adaboost","tn",0.04,0
+"309","Adaboost","tn",0.05,0
+"310","Adaboost","tn",0.06,0
+"311","Adaboost","tn",0.07,0
+"312","Adaboost","tn",0.08,0
+"313","Adaboost","tn",0.09,0
+"314","Adaboost","tn",0.1,0
+"315","Adaboost","tn",0.11,0
+"316","Adaboost","tn",0.12,0
+"317","Adaboost","tn",0.13,0
+"318","Adaboost","tn",0.14,0
+"319","Adaboost","tn",0.15,0
+"320","Adaboost","tn",0.16,0.5
+"321","Adaboost","tn",0.17,2
+"322","Adaboost","tn",0.18,2
+"323","Adaboost","tn",0.19,2
+"324","Adaboost","tn",0.2,3
+"325","Adaboost","tn",0.21,5
+"326","Adaboost","tn",0.22,6.5
+"327","Adaboost","tn",0.23,7.5
+"328","Adaboost","tn",0.24,8
+"329","Adaboost","tn",0.25,10.5
+"330","Adaboost","tn",0.26,15
+"331","Adaboost","tn",0.27,18.5
+"332","Adaboost","tn",0.28,20.5
+"333","Adaboost","tn",0.29,23
+"334","Adaboost","tn",0.3,25.5
+"335","Adaboost","tn",0.31,26
+"336","Adaboost","tn",0.32,28
+"337","Adaboost","tn",0.33,30
+"338","Adaboost","tn",0.34,32
+"339","Adaboost","tn",0.35,35
+"340","Adaboost","tn",0.36,39
+"341","Adaboost","tn",0.37,42.5
+"342","Adaboost","tn",0.38,46.5
+"343","Adaboost","tn",0.39,50
+"344","Adaboost","tn",0.4,53.5
+"345","Adaboost","tn",0.41,55.5
+"346","Adaboost","tn",0.42,60
+"347","Adaboost","tn",0.43,67
+"348","Adaboost","tn",0.44,68
+"349","Adaboost","tn",0.45,73.5
+"350","Adaboost","tn",0.46,74
+"351","Adaboost","tn",0.47,76.5
+"352","Adaboost","tn",0.48,79.5
+"353","Adaboost","tn",0.49,81
+"354","Adaboost","tn",0.5,82.5
+"355","Adaboost","tn",0.51,84.5
+"356","Adaboost","tn",0.52,85
+"357","Adaboost","tn",0.53,85
+"358","Adaboost","tn",0.54,85.5
+"359","Adaboost","tn",0.55,86
+"360","Adaboost","tn",0.56,86
+"361","Adaboost","tn",0.57,86
+"362","Adaboost","tn",0.58,86
+"363","Adaboost","tn",0.59,86
+"364","Adaboost","tn",0.6,86
+"365","Adaboost","tn",0.61,86
+"366","Adaboost","tn",0.62,86
+"367","Adaboost","tn",0.63,86
+"368","Adaboost","tn",0.64,86
+"369","Adaboost","tn",0.65,86
+"370","Adaboost","tn",0.66,86
+"371","Adaboost","tn",0.67,86
+"372","Adaboost","tn",0.68,86
+"373","Adaboost","tn",0.69,86
+"374","Adaboost","tn",0.7,86
+"375","Adaboost","tn",0.71,86
+"376","Adaboost","tn",0.72,86
+"377","Adaboost","tn",0.73,86
+"378","Adaboost","tn",0.74,86
+"379","Adaboost","tn",0.75,86
+"380","Adaboost","tn",0.76,86
+"381","Adaboost","tn",0.77,86
+"382","Adaboost","tn",0.78,86
+"383","Adaboost","tn",0.79,86
+"384","Adaboost","tn",0.8,86
+"385","Adaboost","tn",0.81,86
+"386","Adaboost","tn",0.82,86
+"387","Adaboost","tn",0.83,86
+"388","Adaboost","tn",0.84,86
+"389","Adaboost","tn",0.85,86
+"390","Adaboost","tn",0.86,86
+"391","Adaboost","tn",0.87,86
+"392","Adaboost","tn",0.88,86
+"393","Adaboost","tn",0.89,86
+"394","Adaboost","tn",0.9,86
+"395","Adaboost","tn",0.91,86
+"396","Adaboost","tn",0.92,86
+"397","Adaboost","tn",0.93,86
+"398","Adaboost","tn",0.94,86
+"399","Adaboost","tn",0.95,86
+"400","Adaboost","tn",0.96,86
+"401","Adaboost","tn",0.97,86
+"402","Adaboost","tn",0.98,86
+"403","Adaboost","tn",0.99,86
+"404","Adaboost","tn",1,86
+"405","Adaboost","tp",0,137
+"406","Adaboost","tp",0.01,137
+"407","Adaboost","tp",0.02,137
+"408","Adaboost","tp",0.03,137
+"409","Adaboost","tp",0.04,137
+"410","Adaboost","tp",0.05,137
+"411","Adaboost","tp",0.06,137
+"412","Adaboost","tp",0.07,137
+"413","Adaboost","tp",0.08,137
+"414","Adaboost","tp",0.09,137
+"415","Adaboost","tp",0.1,137
+"416","Adaboost","tp",0.11,137
+"417","Adaboost","tp",0.12,137
+"418","Adaboost","tp",0.13,137
+"419","Adaboost","tp",0.14,137
+"420","Adaboost","tp",0.15,137
+"421","Adaboost","tp",0.16,137
+"422","Adaboost","tp",0.17,137
+"423","Adaboost","tp",0.18,137
+"424","Adaboost","tp",0.19,137
+"425","Adaboost","tp",0.2,137
+"426","Adaboost","tp",0.21,137
+"427","Adaboost","tp",0.22,137
+"428","Adaboost","tp",0.23,137
+"429","Adaboost","tp",0.24,137
+"430","Adaboost","tp",0.25,137
+"431","Adaboost","tp",0.26,137
+"432","Adaboost","tp",0.27,137
+"433","Adaboost","tp",0.28,137
+"434","Adaboost","tp",0.29,137
+"435","Adaboost","tp",0.3,137
+"436","Adaboost","tp",0.31,137
+"437","Adaboost","tp",0.32,137
+"438","Adaboost","tp",0.33,137
+"439","Adaboost","tp",0.34,137
+"440","Adaboost","tp",0.35,137
+"441","Adaboost","tp",0.36,137
+"442","Adaboost","tp",0.37,137
+"443","Adaboost","tp",0.38,137
+"444","Adaboost","tp",0.39,137
+"445","Adaboost","tp",0.4,137
+"446","Adaboost","tp",0.41,137
+"447","Adaboost","tp",0.42,137
+"448","Adaboost","tp",0.43,137
+"449","Adaboost","tp",0.44,137
+"450","Adaboost","tp",0.45,137
+"451","Adaboost","tp",0.46,137
+"452","Adaboost","tp",0.47,137
+"453","Adaboost","tp",0.48,137
+"454","Adaboost","tp",0.49,136
+"455","Adaboost","tp",0.5,136
+"456","Adaboost","tp",0.51,134.5
+"457","Adaboost","tp",0.52,132
+"458","Adaboost","tp",0.53,130.5
+"459","Adaboost","tp",0.54,130
+"460","Adaboost","tp",0.55,126.5
+"461","Adaboost","tp",0.56,122
+"462","Adaboost","tp",0.57,116.5
+"463","Adaboost","tp",0.58,108.5
+"464","Adaboost","tp",0.59,99
+"465","Adaboost","tp",0.6,90.5
+"466","Adaboost","tp",0.61,87.5
+"467","Adaboost","tp",0.62,84.5
+"468","Adaboost","tp",0.63,74.5
+"469","Adaboost","tp",0.64,70.5
+"470","Adaboost","tp",0.65,63
+"471","Adaboost","tp",0.66,53
+"472","Adaboost","tp",0.67,50
+"473","Adaboost","tp",0.68,43.5
+"474","Adaboost","tp",0.69,38
+"475","Adaboost","tp",0.7,33
+"476","Adaboost","tp",0.71,30
+"477","Adaboost","tp",0.72,26.5
+"478","Adaboost","tp",0.73,23.5
+"479","Adaboost","tp",0.74,20
+"480","Adaboost","tp",0.75,13
+"481","Adaboost","tp",0.76,8.5
+"482","Adaboost","tp",0.77,5
+"483","Adaboost","tp",0.78,4
+"484","Adaboost","tp",0.79,3
+"485","Adaboost","tp",0.8,2
+"486","Adaboost","tp",0.81,0.5
+"487","Adaboost","tp",0.82,0
+"488","Adaboost","tp",0.83,0
+"489","Adaboost","tp",0.84,0
+"490","Adaboost","tp",0.85,0
+"491","Adaboost","tp",0.86,0
+"492","Adaboost","tp",0.87,0
+"493","Adaboost","tp",0.88,0
+"494","Adaboost","tp",0.89,0
+"495","Adaboost","tp",0.9,0
+"496","Adaboost","tp",0.91,0
+"497","Adaboost","tp",0.92,0
+"498","Adaboost","tp",0.93,0
+"499","Adaboost","tp",0.94,0
+"500","Adaboost","tp",0.95,0
+"501","Adaboost","tp",0.96,0
+"502","Adaboost","tp",0.97,0
+"503","Adaboost","tp",0.98,0
+"504","Adaboost","tp",0.99,0
+"505","Adaboost","tp",1,0
+"506","Adaboost","tpr",0,1
+"507","Adaboost","tpr",0.01,1
+"508","Adaboost","tpr",0.02,1
+"509","Adaboost","tpr",0.03,1
+"510","Adaboost","tpr",0.04,1
+"511","Adaboost","tpr",0.05,1
+"512","Adaboost","tpr",0.06,1
+"513","Adaboost","tpr",0.07,1
+"514","Adaboost","tpr",0.08,1
+"515","Adaboost","tpr",0.09,1
+"516","Adaboost","tpr",0.1,1
+"517","Adaboost","tpr",0.11,1
+"518","Adaboost","tpr",0.12,1
+"519","Adaboost","tpr",0.13,1
+"520","Adaboost","tpr",0.14,1
+"521","Adaboost","tpr",0.15,1
+"522","Adaboost","tpr",0.16,1
+"523","Adaboost","tpr",0.17,1
+"524","Adaboost","tpr",0.18,1
+"525","Adaboost","tpr",0.19,1
+"526","Adaboost","tpr",0.2,1
+"527","Adaboost","tpr",0.21,1
+"528","Adaboost","tpr",0.22,1
+"529","Adaboost","tpr",0.23,1
+"530","Adaboost","tpr",0.24,1
+"531","Adaboost","tpr",0.25,1
+"532","Adaboost","tpr",0.26,1
+"533","Adaboost","tpr",0.27,1
+"534","Adaboost","tpr",0.28,1
+"535","Adaboost","tpr",0.29,1
+"536","Adaboost","tpr",0.3,1
+"537","Adaboost","tpr",0.31,1
+"538","Adaboost","tpr",0.32,1
+"539","Adaboost","tpr",0.33,1
+"540","Adaboost","tpr",0.34,1
+"541","Adaboost","tpr",0.35,1
+"542","Adaboost","tpr",0.36,1
+"543","Adaboost","tpr",0.37,1
+"544","Adaboost","tpr",0.38,1
+"545","Adaboost","tpr",0.39,1
+"546","Adaboost","tpr",0.4,1
+"547","Adaboost","tpr",0.41,1
+"548","Adaboost","tpr",0.42,1
+"549","Adaboost","tpr",0.43,1
+"550","Adaboost","tpr",0.44,1
+"551","Adaboost","tpr",0.45,1
+"552","Adaboost","tpr",0.46,1
+"553","Adaboost","tpr",0.47,1
+"554","Adaboost","tpr",0.48,1
+"555","Adaboost","tpr",0.49,0.99
+"556","Adaboost","tpr",0.5,0.99
+"557","Adaboost","tpr",0.51,0.985
+"558","Adaboost","tpr",0.52,0.965
+"559","Adaboost","tpr",0.53,0.955
+"560","Adaboost","tpr",0.54,0.95
+"561","Adaboost","tpr",0.55,0.92
+"562","Adaboost","tpr",0.56,0.895
+"563","Adaboost","tpr",0.57,0.85
+"564","Adaboost","tpr",0.58,0.795
+"565","Adaboost","tpr",0.59,0.725
+"566","Adaboost","tpr",0.6,0.66
+"567","Adaboost","tpr",0.61,0.64
+"568","Adaboost","tpr",0.62,0.62
+"569","Adaboost","tpr",0.63,0.545
+"570","Adaboost","tpr",0.64,0.515
+"571","Adaboost","tpr",0.65,0.46
+"572","Adaboost","tpr",0.66,0.385
+"573","Adaboost","tpr",0.67,0.36
+"574","Adaboost","tpr",0.68,0.315
+"575","Adaboost","tpr",0.69,0.275
+"576","Adaboost","tpr",0.7,0.24
+"577","Adaboost","tpr",0.71,0.22
+"578","Adaboost","tpr",0.72,0.195
+"579","Adaboost","tpr",0.73,0.175
+"580","Adaboost","tpr",0.74,0.15
+"581","Adaboost","tpr",0.75,0.095
+"582","Adaboost","tpr",0.76,0.065
+"583","Adaboost","tpr",0.77,0.035
+"584","Adaboost","tpr",0.78,0.03
+"585","Adaboost","tpr",0.79,0.02
+"586","Adaboost","tpr",0.8,0.01
+"587","Adaboost","tpr",0.81,0.005
+"588","Adaboost","tpr",0.82,0
+"589","Adaboost","tpr",0.83,0
+"590","Adaboost","tpr",0.84,0
+"591","Adaboost","tpr",0.85,0
+"592","Adaboost","tpr",0.86,0
+"593","Adaboost","tpr",0.87,0
+"594","Adaboost","tpr",0.88,0
+"595","Adaboost","tpr",0.89,0
+"596","Adaboost","tpr",0.9,0
+"597","Adaboost","tpr",0.91,0
+"598","Adaboost","tpr",0.92,0
+"599","Adaboost","tpr",0.93,0
+"600","Adaboost","tpr",0.94,0
+"601","Adaboost","tpr",0.95,0
+"602","Adaboost","tpr",0.96,0
+"603","Adaboost","tpr",0.97,0
+"604","Adaboost","tpr",0.98,0
+"605","Adaboost","tpr",0.99,0
+"606","Adaboost","tpr",1,0
+"607","Decision Tree","fn",0,0
+"608","Decision Tree","fn",0.01,0
+"609","Decision Tree","fn",0.02,0
+"610","Decision Tree","fn",0.03,0
+"611","Decision Tree","fn",0.04,0
+"612","Decision Tree","fn",0.05,0
+"613","Decision Tree","fn",0.06,1
+"614","Decision Tree","fn",0.07,1
+"615","Decision Tree","fn",0.08,1
+"616","Decision Tree","fn",0.09,1
+"617","Decision Tree","fn",0.1,1
+"618","Decision Tree","fn",0.11,1
+"619","Decision Tree","fn",0.12,1
+"620","Decision Tree","fn",0.13,1
+"621","Decision Tree","fn",0.14,1
+"622","Decision Tree","fn",0.15,1
+"623","Decision Tree","fn",0.16,1
+"624","Decision Tree","fn",0.17,1
+"625","Decision Tree","fn",0.18,1
+"626","Decision Tree","fn",0.19,1
+"627","Decision Tree","fn",0.2,1
+"628","Decision Tree","fn",0.21,1
+"629","Decision Tree","fn",0.22,1
+"630","Decision Tree","fn",0.23,1
+"631","Decision Tree","fn",0.24,1
+"632","Decision Tree","fn",0.25,1
+"633","Decision Tree","fn",0.26,1
+"634","Decision Tree","fn",0.27,1
+"635","Decision Tree","fn",0.28,1
+"636","Decision Tree","fn",0.29,1
+"637","Decision Tree","fn",0.3,1
+"638","Decision Tree","fn",0.31,1
+"639","Decision Tree","fn",0.32,1
+"640","Decision Tree","fn",0.33,1
+"641","Decision Tree","fn",0.34,1
+"642","Decision Tree","fn",0.35,1
+"643","Decision Tree","fn",0.36,1
+"644","Decision Tree","fn",0.37,1
+"645","Decision Tree","fn",0.38,7.5
+"646","Decision Tree","fn",0.39,14
+"647","Decision Tree","fn",0.4,14
+"648","Decision Tree","fn",0.41,14
+"649","Decision Tree","fn",0.42,14
+"650","Decision Tree","fn",0.43,14
+"651","Decision Tree","fn",0.44,14
+"652","Decision Tree","fn",0.45,14
+"653","Decision Tree","fn",0.46,14
+"654","Decision Tree","fn",0.47,14
+"655","Decision Tree","fn",0.48,14
+"656","Decision Tree","fn",0.49,14
+"657","Decision Tree","fn",0.5,14
+"658","Decision Tree","fn",0.51,14
+"659","Decision Tree","fn",0.52,14
+"660","Decision Tree","fn",0.53,14
+"661","Decision Tree","fn",0.54,14
+"662","Decision Tree","fn",0.55,14
+"663","Decision Tree","fn",0.56,14
+"664","Decision Tree","fn",0.57,14
+"665","Decision Tree","fn",0.58,14
+"666","Decision Tree","fn",0.59,14
+"667","Decision Tree","fn",0.6,14
+"668","Decision Tree","fn",0.61,14
+"669","Decision Tree","fn",0.62,14
+"670","Decision Tree","fn",0.63,14
+"671","Decision Tree","fn",0.64,14
+"672","Decision Tree","fn",0.65,14
+"673","Decision Tree","fn",0.66,14
+"674","Decision Tree","fn",0.67,14
+"675","Decision Tree","fn",0.68,14
+"676","Decision Tree","fn",0.69,14
+"677","Decision Tree","fn",0.7,14
+"678","Decision Tree","fn",0.71,14
+"679","Decision Tree","fn",0.72,14
+"680","Decision Tree","fn",0.73,14
+"681","Decision Tree","fn",0.74,14
+"682","Decision Tree","fn",0.75,14
+"683","Decision Tree","fn",0.76,14
+"684","Decision Tree","fn",0.77,14
+"685","Decision Tree","fn",0.78,14
+"686","Decision Tree","fn",0.79,14
+"687","Decision Tree","fn",0.8,14
+"688","Decision Tree","fn",0.81,14
+"689","Decision Tree","fn",0.82,14
+"690","Decision Tree","fn",0.83,71
+"691","Decision Tree","fn",0.84,128
+"692","Decision Tree","fn",0.85,128
+"693","Decision Tree","fn",0.86,129
+"694","Decision Tree","fn",0.87,129
+"695","Decision Tree","fn",0.88,129
+"696","Decision Tree","fn",0.89,137
+"697","Decision Tree","fn",0.9,137
+"698","Decision Tree","fn",0.91,137
+"699","Decision Tree","fn",0.92,137
+"700","Decision Tree","fn",0.93,137
+"701","Decision Tree","fn",0.94,137
+"702","Decision Tree","fn",0.95,137
+"703","Decision Tree","fn",0.96,137
+"704","Decision Tree","fn",0.97,137
+"705","Decision Tree","fn",0.98,137
+"706","Decision Tree","fn",0.99,137
+"707","Decision Tree","fn",1,137
+"708","Decision Tree","fp",0,86
+"709","Decision Tree","fp",0.01,86
+"710","Decision Tree","fp",0.02,86
+"711","Decision Tree","fp",0.03,86
+"712","Decision Tree","fp",0.04,86
+"713","Decision Tree","fp",0.05,86
+"714","Decision Tree","fp",0.06,40
+"715","Decision Tree","fp",0.07,40
+"716","Decision Tree","fp",0.08,40
+"717","Decision Tree","fp",0.09,40
+"718","Decision Tree","fp",0.1,40
+"719","Decision Tree","fp",0.11,40
+"720","Decision Tree","fp",0.12,40
+"721","Decision Tree","fp",0.13,40
+"722","Decision Tree","fp",0.14,40
+"723","Decision Tree","fp",0.15,40
+"724","Decision Tree","fp",0.16,40
+"725","Decision Tree","fp",0.17,40
+"726","Decision Tree","fp",0.18,40
+"727","Decision Tree","fp",0.19,40
+"728","Decision Tree","fp",0.2,40
+"729","Decision Tree","fp",0.21,40
+"730","Decision Tree","fp",0.22,40
+"731","Decision Tree","fp",0.23,40
+"732","Decision Tree","fp",0.24,40
+"733","Decision Tree","fp",0.25,40
+"734","Decision Tree","fp",0.26,40
+"735","Decision Tree","fp",0.27,40
+"736","Decision Tree","fp",0.28,40
+"737","Decision Tree","fp",0.29,40
+"738","Decision Tree","fp",0.3,40
+"739","Decision Tree","fp",0.31,40
+"740","Decision Tree","fp",0.32,40
+"741","Decision Tree","fp",0.33,40
+"742","Decision Tree","fp",0.34,40
+"743","Decision Tree","fp",0.35,40
+"744","Decision Tree","fp",0.36,40
+"745","Decision Tree","fp",0.37,40
+"746","Decision Tree","fp",0.38,28.5
+"747","Decision Tree","fp",0.39,17
+"748","Decision Tree","fp",0.4,17
+"749","Decision Tree","fp",0.41,17
+"750","Decision Tree","fp",0.42,17
+"751","Decision Tree","fp",0.43,17
+"752","Decision Tree","fp",0.44,17
+"753","Decision Tree","fp",0.45,17
+"754","Decision Tree","fp",0.46,17
+"755","Decision Tree","fp",0.47,17
+"756","Decision Tree","fp",0.48,17
+"757","Decision Tree","fp",0.49,17
+"758","Decision Tree","fp",0.5,17
+"759","Decision Tree","fp",0.51,17
+"760","Decision Tree","fp",0.52,17
+"761","Decision Tree","fp",0.53,17
+"762","Decision Tree","fp",0.54,17
+"763","Decision Tree","fp",0.55,17
+"764","Decision Tree","fp",0.56,17
+"765","Decision Tree","fp",0.57,17
+"766","Decision Tree","fp",0.58,17
+"767","Decision Tree","fp",0.59,17
+"768","Decision Tree","fp",0.6,17
+"769","Decision Tree","fp",0.61,17
+"770","Decision Tree","fp",0.62,17
+"771","Decision Tree","fp",0.63,17
+"772","Decision Tree","fp",0.64,17
+"773","Decision Tree","fp",0.65,17
+"774","Decision Tree","fp",0.66,17
+"775","Decision Tree","fp",0.67,17
+"776","Decision Tree","fp",0.68,17
+"777","Decision Tree","fp",0.69,17
+"778","Decision Tree","fp",0.7,17
+"779","Decision Tree","fp",0.71,17
+"780","Decision Tree","fp",0.72,17
+"781","Decision Tree","fp",0.73,17
+"782","Decision Tree","fp",0.74,17
+"783","Decision Tree","fp",0.75,17
+"784","Decision Tree","fp",0.76,17
+"785","Decision Tree","fp",0.77,17
+"786","Decision Tree","fp",0.78,17
+"787","Decision Tree","fp",0.79,17
+"788","Decision Tree","fp",0.8,17
+"789","Decision Tree","fp",0.81,17
+"790","Decision Tree","fp",0.82,17
+"791","Decision Tree","fp",0.83,9.5
+"792","Decision Tree","fp",0.84,2
+"793","Decision Tree","fp",0.85,2
+"794","Decision Tree","fp",0.86,1
+"795","Decision Tree","fp",0.87,1
+"796","Decision Tree","fp",0.88,1
+"797","Decision Tree","fp",0.89,0
+"798","Decision Tree","fp",0.9,0
+"799","Decision Tree","fp",0.91,0
+"800","Decision Tree","fp",0.92,0
+"801","Decision Tree","fp",0.93,0
+"802","Decision Tree","fp",0.94,0
+"803","Decision Tree","fp",0.95,0
+"804","Decision Tree","fp",0.96,0
+"805","Decision Tree","fp",0.97,0
+"806","Decision Tree","fp",0.98,0
+"807","Decision Tree","fp",0.99,0
+"808","Decision Tree","fp",1,0
+"809","Decision Tree","ppv",0,0.61
+"810","Decision Tree","ppv",0.01,0.61
+"811","Decision Tree","ppv",0.02,0.61
+"812","Decision Tree","ppv",0.03,0.61
+"813","Decision Tree","ppv",0.04,0.61
+"814","Decision Tree","ppv",0.05,0.61
+"815","Decision Tree","ppv",0.06,0.77
+"816","Decision Tree","ppv",0.07,0.77
+"817","Decision Tree","ppv",0.08,0.77
+"818","Decision Tree","ppv",0.09,0.77
+"819","Decision Tree","ppv",0.1,0.77
+"820","Decision Tree","ppv",0.11,0.77
+"821","Decision Tree","ppv",0.12,0.77
+"822","Decision Tree","ppv",0.13,0.77
+"823","Decision Tree","ppv",0.14,0.77
+"824","Decision Tree","ppv",0.15,0.77
+"825","Decision Tree","ppv",0.16,0.77
+"826","Decision Tree","ppv",0.17,0.77
+"827","Decision Tree","ppv",0.18,0.77
+"828","Decision Tree","ppv",0.19,0.77
+"829","Decision Tree","ppv",0.2,0.77
+"830","Decision Tree","ppv",0.21,0.77
+"831","Decision Tree","ppv",0.22,0.77
+"832","Decision Tree","ppv",0.23,0.77
+"833","Decision Tree","ppv",0.24,0.77
+"834","Decision Tree","ppv",0.25,0.77
+"835","Decision Tree","ppv",0.26,0.77
+"836","Decision Tree","ppv",0.27,0.77
+"837","Decision Tree","ppv",0.28,0.77
+"838","Decision Tree","ppv",0.29,0.77
+"839","Decision Tree","ppv",0.3,0.77
+"840","Decision Tree","ppv",0.31,0.77
+"841","Decision Tree","ppv",0.32,0.77
+"842","Decision Tree","ppv",0.33,0.77
+"843","Decision Tree","ppv",0.34,0.77
+"844","Decision Tree","ppv",0.35,0.77
+"845","Decision Tree","ppv",0.36,0.77
+"846","Decision Tree","ppv",0.37,0.77
+"847","Decision Tree","ppv",0.38,0.825
+"848","Decision Tree","ppv",0.39,0.88
+"849","Decision Tree","ppv",0.4,0.88
+"850","Decision Tree","ppv",0.41,0.88
+"851","Decision Tree","ppv",0.42,0.88
+"852","Decision Tree","ppv",0.43,0.88
+"853","Decision Tree","ppv",0.44,0.88
+"854","Decision Tree","ppv",0.45,0.88
+"855","Decision Tree","ppv",0.46,0.88
+"856","Decision Tree","ppv",0.47,0.88
+"857","Decision Tree","ppv",0.48,0.88
+"858","Decision Tree","ppv",0.49,0.88
+"859","Decision Tree","ppv",0.5,0.88
+"860","Decision Tree","ppv",0.51,0.88
+"861","Decision Tree","ppv",0.52,0.88
+"862","Decision Tree","ppv",0.53,0.88
+"863","Decision Tree","ppv",0.54,0.88
+"864","Decision Tree","ppv",0.55,0.88
+"865","Decision Tree","ppv",0.56,0.88
+"866","Decision Tree","ppv",0.57,0.88
+"867","Decision Tree","ppv",0.58,0.88
+"868","Decision Tree","ppv",0.59,0.88
+"869","Decision Tree","ppv",0.6,0.88
+"870","Decision Tree","ppv",0.61,0.88
+"871","Decision Tree","ppv",0.62,0.88
+"872","Decision Tree","ppv",0.63,0.88
+"873","Decision Tree","ppv",0.64,0.88
+"874","Decision Tree","ppv",0.65,0.88
+"875","Decision Tree","ppv",0.66,0.88
+"876","Decision Tree","ppv",0.67,0.88
+"877","Decision Tree","ppv",0.68,0.88
+"878","Decision Tree","ppv",0.69,0.88
+"879","Decision Tree","ppv",0.7,0.88
+"880","Decision Tree","ppv",0.71,0.88
+"881","Decision Tree","ppv",0.72,0.88
+"882","Decision Tree","ppv",0.73,0.88
+"883","Decision Tree","ppv",0.74,0.88
+"884","Decision Tree","ppv",0.75,0.88
+"885","Decision Tree","ppv",0.76,0.88
+"886","Decision Tree","ppv",0.77,0.88
+"887","Decision Tree","ppv",0.78,0.88
+"888","Decision Tree","ppv",0.79,0.88
+"889","Decision Tree","ppv",0.8,0.88
+"890","Decision Tree","ppv",0.81,0.88
+"891","Decision Tree","ppv",0.82,0.88
+"892","Decision Tree","ppv",0.83,0.85
+"893","Decision Tree","ppv",0.84,0.82
+"894","Decision Tree","ppv",0.85,0.82
+"895","Decision Tree","ppv",0.86,0.89
+"896","Decision Tree","ppv",0.87,0.89
+"897","Decision Tree","ppv",0.88,0.89
+"898","Decision Tree","ppv",0.89,1
+"899","Decision Tree","ppv",0.9,1
+"900","Decision Tree","ppv",0.91,1
+"901","Decision Tree","ppv",0.92,1
+"902","Decision Tree","ppv",0.93,1
+"903","Decision Tree","ppv",0.94,1
+"904","Decision Tree","ppv",0.95,1
+"905","Decision Tree","ppv",0.96,1
+"906","Decision Tree","ppv",0.97,1
+"907","Decision Tree","ppv",0.98,1
+"908","Decision Tree","ppv",0.99,1
+"909","Decision Tree","ppv",1,1
+"910","Decision Tree","tn",0,0
+"911","Decision Tree","tn",0.01,0
+"912","Decision Tree","tn",0.02,0
+"913","Decision Tree","tn",0.03,0
+"914","Decision Tree","tn",0.04,0
+"915","Decision Tree","tn",0.05,0
+"916","Decision Tree","tn",0.06,46
+"917","Decision Tree","tn",0.07,46
+"918","Decision Tree","tn",0.08,46
+"919","Decision Tree","tn",0.09,46
+"920","Decision Tree","tn",0.1,46
+"921","Decision Tree","tn",0.11,46
+"922","Decision Tree","tn",0.12,46
+"923","Decision Tree","tn",0.13,46
+"924","Decision Tree","tn",0.14,46
+"925","Decision Tree","tn",0.15,46
+"926","Decision Tree","tn",0.16,46
+"927","Decision Tree","tn",0.17,46
+"928","Decision Tree","tn",0.18,46
+"929","Decision Tree","tn",0.19,46
+"930","Decision Tree","tn",0.2,46
+"931","Decision Tree","tn",0.21,46
+"932","Decision Tree","tn",0.22,46
+"933","Decision Tree","tn",0.23,46
+"934","Decision Tree","tn",0.24,46
+"935","Decision Tree","tn",0.25,46
+"936","Decision Tree","tn",0.26,46
+"937","Decision Tree","tn",0.27,46
+"938","Decision Tree","tn",0.28,46
+"939","Decision Tree","tn",0.29,46
+"940","Decision Tree","tn",0.3,46
+"941","Decision Tree","tn",0.31,46
+"942","Decision Tree","tn",0.32,46
+"943","Decision Tree","tn",0.33,46
+"944","Decision Tree","tn",0.34,46
+"945","Decision Tree","tn",0.35,46
+"946","Decision Tree","tn",0.36,46
+"947","Decision Tree","tn",0.37,46
+"948","Decision Tree","tn",0.38,57.5
+"949","Decision Tree","tn",0.39,69
+"950","Decision Tree","tn",0.4,69
+"951","Decision Tree","tn",0.41,69
+"952","Decision Tree","tn",0.42,69
+"953","Decision Tree","tn",0.43,69
+"954","Decision Tree","tn",0.44,69
+"955","Decision Tree","tn",0.45,69
+"956","Decision Tree","tn",0.46,69
+"957","Decision Tree","tn",0.47,69
+"958","Decision Tree","tn",0.48,69
+"959","Decision Tree","tn",0.49,69
+"960","Decision Tree","tn",0.5,69
+"961","Decision Tree","tn",0.51,69
+"962","Decision Tree","tn",0.52,69
+"963","Decision Tree","tn",0.53,69
+"964","Decision Tree","tn",0.54,69
+"965","Decision Tree","tn",0.55,69
+"966","Decision Tree","tn",0.56,69
+"967","Decision Tree","tn",0.57,69
+"968","Decision Tree","tn",0.58,69
+"969","Decision Tree","tn",0.59,69
+"970","Decision Tree","tn",0.6,69
+"971","Decision Tree","tn",0.61,69
+"972","Decision Tree","tn",0.62,69
+"973","Decision Tree","tn",0.63,69
+"974","Decision Tree","tn",0.64,69
+"975","Decision Tree","tn",0.65,69
+"976","Decision Tree","tn",0.66,69
+"977","Decision Tree","tn",0.67,69
+"978","Decision Tree","tn",0.68,69
+"979","Decision Tree","tn",0.69,69
+"980","Decision Tree","tn",0.7,69
+"981","Decision Tree","tn",0.71,69
+"982","Decision Tree","tn",0.72,69
+"983","Decision Tree","tn",0.73,69
+"984","Decision Tree","tn",0.74,69
+"985","Decision Tree","tn",0.75,69
+"986","Decision Tree","tn",0.76,69
+"987","Decision Tree","tn",0.77,69
+"988","Decision Tree","tn",0.78,69
+"989","Decision Tree","tn",0.79,69
+"990","Decision Tree","tn",0.8,69
+"991","Decision Tree","tn",0.81,69
+"992","Decision Tree","tn",0.82,69
+"993","Decision Tree","tn",0.83,76.5
+"994","Decision Tree","tn",0.84,84
+"995","Decision Tree","tn",0.85,84
+"996","Decision Tree","tn",0.86,85
+"997","Decision Tree","tn",0.87,85
+"998","Decision Tree","tn",0.88,85
+"999","Decision Tree","tn",0.89,86
+"1000","Decision Tree","tn",0.9,86
+"1001","Decision Tree","tn",0.91,86
+"1002","Decision Tree","tn",0.92,86
+"1003","Decision Tree","tn",0.93,86
+"1004","Decision Tree","tn",0.94,86
+"1005","Decision Tree","tn",0.95,86
+"1006","Decision Tree","tn",0.96,86
+"1007","Decision Tree","tn",0.97,86
+"1008","Decision Tree","tn",0.98,86
+"1009","Decision Tree","tn",0.99,86
+"1010","Decision Tree","tn",1,86
+"1011","Decision Tree","tp",0,137
+"1012","Decision Tree","tp",0.01,137
+"1013","Decision Tree","tp",0.02,137
+"1014","Decision Tree","tp",0.03,137
+"1015","Decision Tree","tp",0.04,137
+"1016","Decision Tree","tp",0.05,137
+"1017","Decision Tree","tp",0.06,136
+"1018","Decision Tree","tp",0.07,136
+"1019","Decision Tree","tp",0.08,136
+"1020","Decision Tree","tp",0.09,136
+"1021","Decision Tree","tp",0.1,136
+"1022","Decision Tree","tp",0.11,136
+"1023","Decision Tree","tp",0.12,136
+"1024","Decision Tree","tp",0.13,136
+"1025","Decision Tree","tp",0.14,136
+"1026","Decision Tree","tp",0.15,136
+"1027","Decision Tree","tp",0.16,136
+"1028","Decision Tree","tp",0.17,136
+"1029","Decision Tree","tp",0.18,136
+"1030","Decision Tree","tp",0.19,136
+"1031","Decision Tree","tp",0.2,136
+"1032","Decision Tree","tp",0.21,136
+"1033","Decision Tree","tp",0.22,136
+"1034","Decision Tree","tp",0.23,136
+"1035","Decision Tree","tp",0.24,136
+"1036","Decision Tree","tp",0.25,136
+"1037","Decision Tree","tp",0.26,136
+"1038","Decision Tree","tp",0.27,136
+"1039","Decision Tree","tp",0.28,136
+"1040","Decision Tree","tp",0.29,136
+"1041","Decision Tree","tp",0.3,136
+"1042","Decision Tree","tp",0.31,136
+"1043","Decision Tree","tp",0.32,136
+"1044","Decision Tree","tp",0.33,136
+"1045","Decision Tree","tp",0.34,136
+"1046","Decision Tree","tp",0.35,136
+"1047","Decision Tree","tp",0.36,136
+"1048","Decision Tree","tp",0.37,136
+"1049","Decision Tree","tp",0.38,129.5
+"1050","Decision Tree","tp",0.39,123
+"1051","Decision Tree","tp",0.4,123
+"1052","Decision Tree","tp",0.41,123
+"1053","Decision Tree","tp",0.42,123
+"1054","Decision Tree","tp",0.43,123
+"1055","Decision Tree","tp",0.44,123
+"1056","Decision Tree","tp",0.45,123
+"1057","Decision Tree","tp",0.46,123
+"1058","Decision Tree","tp",0.47,123
+"1059","Decision Tree","tp",0.48,123
+"1060","Decision Tree","tp",0.49,123
+"1061","Decision Tree","tp",0.5,123
+"1062","Decision Tree","tp",0.51,123
+"1063","Decision Tree","tp",0.52,123
+"1064","Decision Tree","tp",0.53,123
+"1065","Decision Tree","tp",0.54,123
+"1066","Decision Tree","tp",0.55,123
+"1067","Decision Tree","tp",0.56,123
+"1068","Decision Tree","tp",0.57,123
+"1069","Decision Tree","tp",0.58,123
+"1070","Decision Tree","tp",0.59,123
+"1071","Decision Tree","tp",0.6,123
+"1072","Decision Tree","tp",0.61,123
+"1073","Decision Tree","tp",0.62,123
+"1074","Decision Tree","tp",0.63,123
+"1075","Decision Tree","tp",0.64,123
+"1076","Decision Tree","tp",0.65,123
+"1077","Decision Tree","tp",0.66,123
+"1078","Decision Tree","tp",0.67,123
+"1079","Decision Tree","tp",0.68,123
+"1080","Decision Tree","tp",0.69,123
+"1081","Decision Tree","tp",0.7,123
+"1082","Decision Tree","tp",0.71,123
+"1083","Decision Tree","tp",0.72,123
+"1084","Decision Tree","tp",0.73,123
+"1085","Decision Tree","tp",0.74,123
+"1086","Decision Tree","tp",0.75,123
+"1087","Decision Tree","tp",0.76,123
+"1088","Decision Tree","tp",0.77,123
+"1089","Decision Tree","tp",0.78,123
+"1090","Decision Tree","tp",0.79,123
+"1091","Decision Tree","tp",0.8,123
+"1092","Decision Tree","tp",0.81,123
+"1093","Decision Tree","tp",0.82,123
+"1094","Decision Tree","tp",0.83,66
+"1095","Decision Tree","tp",0.84,9
+"1096","Decision Tree","tp",0.85,9
+"1097","Decision Tree","tp",0.86,8
+"1098","Decision Tree","tp",0.87,8
+"1099","Decision Tree","tp",0.88,8
+"1100","Decision Tree","tp",0.89,0
+"1101","Decision Tree","tp",0.9,0
+"1102","Decision Tree","tp",0.91,0
+"1103","Decision Tree","tp",0.92,0
+"1104","Decision Tree","tp",0.93,0
+"1105","Decision Tree","tp",0.94,0
+"1106","Decision Tree","tp",0.95,0
+"1107","Decision Tree","tp",0.96,0
+"1108","Decision Tree","tp",0.97,0
+"1109","Decision Tree","tp",0.98,0
+"1110","Decision Tree","tp",0.99,0
+"1111","Decision Tree","tp",1,0
+"1112","Decision Tree","tpr",0,1
+"1113","Decision Tree","tpr",0.01,1
+"1114","Decision Tree","tpr",0.02,1
+"1115","Decision Tree","tpr",0.03,1
+"1116","Decision Tree","tpr",0.04,1
+"1117","Decision Tree","tpr",0.05,1
+"1118","Decision Tree","tpr",0.06,0.99
+"1119","Decision Tree","tpr",0.07,0.99
+"1120","Decision Tree","tpr",0.08,0.99
+"1121","Decision Tree","tpr",0.09,0.99
+"1122","Decision Tree","tpr",0.1,0.99
+"1123","Decision Tree","tpr",0.11,0.99
+"1124","Decision Tree","tpr",0.12,0.99
+"1125","Decision Tree","tpr",0.13,0.99
+"1126","Decision Tree","tpr",0.14,0.99
+"1127","Decision Tree","tpr",0.15,0.99
+"1128","Decision Tree","tpr",0.16,0.99
+"1129","Decision Tree","tpr",0.17,0.99
+"1130","Decision Tree","tpr",0.18,0.99
+"1131","Decision Tree","tpr",0.19,0.99
+"1132","Decision Tree","tpr",0.2,0.99
+"1133","Decision Tree","tpr",0.21,0.99
+"1134","Decision Tree","tpr",0.22,0.99
+"1135","Decision Tree","tpr",0.23,0.99
+"1136","Decision Tree","tpr",0.24,0.99
+"1137","Decision Tree","tpr",0.25,0.99
+"1138","Decision Tree","tpr",0.26,0.99
+"1139","Decision Tree","tpr",0.27,0.99
+"1140","Decision Tree","tpr",0.28,0.99
+"1141","Decision Tree","tpr",0.29,0.99
+"1142","Decision Tree","tpr",0.3,0.99
+"1143","Decision Tree","tpr",0.31,0.99
+"1144","Decision Tree","tpr",0.32,0.99
+"1145","Decision Tree","tpr",0.33,0.99
+"1146","Decision Tree","tpr",0.34,0.99
+"1147","Decision Tree","tpr",0.35,0.99
+"1148","Decision Tree","tpr",0.36,0.99
+"1149","Decision Tree","tpr",0.37,0.99
+"1150","Decision Tree","tpr",0.38,0.945
+"1151","Decision Tree","tpr",0.39,0.9
+"1152","Decision Tree","tpr",0.4,0.9
+"1153","Decision Tree","tpr",0.41,0.9
+"1154","Decision Tree","tpr",0.42,0.9
+"1155","Decision Tree","tpr",0.43,0.9
+"1156","Decision Tree","tpr",0.44,0.9
+"1157","Decision Tree","tpr",0.45,0.9
+"1158","Decision Tree","tpr",0.46,0.9
+"1159","Decision Tree","tpr",0.47,0.9
+"1160","Decision Tree","tpr",0.48,0.9
+"1161","Decision Tree","tpr",0.49,0.9
+"1162","Decision Tree","tpr",0.5,0.9
+"1163","Decision Tree","tpr",0.51,0.9
+"1164","Decision Tree","tpr",0.52,0.9
+"1165","Decision Tree","tpr",0.53,0.9
+"1166","Decision Tree","tpr",0.54,0.9
+"1167","Decision Tree","tpr",0.55,0.9
+"1168","Decision Tree","tpr",0.56,0.9
+"1169","Decision Tree","tpr",0.57,0.9
+"1170","Decision Tree","tpr",0.58,0.9
+"1171","Decision Tree","tpr",0.59,0.9
+"1172","Decision Tree","tpr",0.6,0.9
+"1173","Decision Tree","tpr",0.61,0.9
+"1174","Decision Tree","tpr",0.62,0.9
+"1175","Decision Tree","tpr",0.63,0.9
+"1176","Decision Tree","tpr",0.64,0.9
+"1177","Decision Tree","tpr",0.65,0.9
+"1178","Decision Tree","tpr",0.66,0.9
+"1179","Decision Tree","tpr",0.67,0.9
+"1180","Decision Tree","tpr",0.68,0.9
+"1181","Decision Tree","tpr",0.69,0.9
+"1182","Decision Tree","tpr",0.7,0.9
+"1183","Decision Tree","tpr",0.71,0.9
+"1184","Decision Tree","tpr",0.72,0.9
+"1185","Decision Tree","tpr",0.73,0.9
+"1186","Decision Tree","tpr",0.74,0.9
+"1187","Decision Tree","tpr",0.75,0.9
+"1188","Decision Tree","tpr",0.76,0.9
+"1189","Decision Tree","tpr",0.77,0.9
+"1190","Decision Tree","tpr",0.78,0.9
+"1191","Decision Tree","tpr",0.79,0.9
+"1192","Decision Tree","tpr",0.8,0.9
+"1193","Decision Tree","tpr",0.81,0.9
+"1194","Decision Tree","tpr",0.82,0.9
+"1195","Decision Tree","tpr",0.83,0.485
+"1196","Decision Tree","tpr",0.84,0.07
+"1197","Decision Tree","tpr",0.85,0.07
+"1198","Decision Tree","tpr",0.86,0.06
+"1199","Decision Tree","tpr",0.87,0.06
+"1200","Decision Tree","tpr",0.88,0.06
+"1201","Decision Tree","tpr",0.89,0
+"1202","Decision Tree","tpr",0.9,0
+"1203","Decision Tree","tpr",0.91,0
+"1204","Decision Tree","tpr",0.92,0
+"1205","Decision Tree","tpr",0.93,0
+"1206","Decision Tree","tpr",0.94,0
+"1207","Decision Tree","tpr",0.95,0
+"1208","Decision Tree","tpr",0.96,0
+"1209","Decision Tree","tpr",0.97,0
+"1210","Decision Tree","tpr",0.98,0
+"1211","Decision Tree","tpr",0.99,0
+"1212","Decision Tree","tpr",1,0
+"1213","Logistic","fn",0,0
+"1214","Logistic","fn",0.01,0
+"1215","Logistic","fn",0.02,0
+"1216","Logistic","fn",0.03,0
+"1217","Logistic","fn",0.04,0
+"1218","Logistic","fn",0.05,0
+"1219","Logistic","fn",0.06,0
+"1220","Logistic","fn",0.07,0
+"1221","Logistic","fn",0.08,1
+"1222","Logistic","fn",0.09,1
+"1223","Logistic","fn",0.1,1
+"1224","Logistic","fn",0.11,1
+"1225","Logistic","fn",0.12,1
+"1226","Logistic","fn",0.13,1
+"1227","Logistic","fn",0.14,1
+"1228","Logistic","fn",0.15,1
+"1229","Logistic","fn",0.16,1
+"1230","Logistic","fn",0.17,1
+"1231","Logistic","fn",0.18,1
+"1232","Logistic","fn",0.19,1
+"1233","Logistic","fn",0.2,2
+"1234","Logistic","fn",0.21,2
+"1235","Logistic","fn",0.22,2
+"1236","Logistic","fn",0.23,3.5
+"1237","Logistic","fn",0.24,4
+"1238","Logistic","fn",0.25,4
+"1239","Logistic","fn",0.26,4
+"1240","Logistic","fn",0.27,4
+"1241","Logistic","fn",0.28,4
+"1242","Logistic","fn",0.29,4
+"1243","Logistic","fn",0.3,4.5
+"1244","Logistic","fn",0.31,5
+"1245","Logistic","fn",0.32,7
+"1246","Logistic","fn",0.33,7
+"1247","Logistic","fn",0.34,7
+"1248","Logistic","fn",0.35,7.5
+"1249","Logistic","fn",0.36,9
+"1250","Logistic","fn",0.37,9
+"1251","Logistic","fn",0.38,9
+"1252","Logistic","fn",0.39,11
+"1253","Logistic","fn",0.4,12.5
+"1254","Logistic","fn",0.41,14.5
+"1255","Logistic","fn",0.42,15
+"1256","Logistic","fn",0.43,15
+"1257","Logistic","fn",0.44,16.5
+"1258","Logistic","fn",0.45,17
+"1259","Logistic","fn",0.46,17
+"1260","Logistic","fn",0.47,17
+"1261","Logistic","fn",0.48,17
+"1262","Logistic","fn",0.49,18
+"1263","Logistic","fn",0.5,19.5
+"1264","Logistic","fn",0.51,22
+"1265","Logistic","fn",0.52,24
+"1266","Logistic","fn",0.53,25
+"1267","Logistic","fn",0.54,25
+"1268","Logistic","fn",0.55,25
+"1269","Logistic","fn",0.56,26
+"1270","Logistic","fn",0.57,26
+"1271","Logistic","fn",0.58,26
+"1272","Logistic","fn",0.59,27
+"1273","Logistic","fn",0.6,27
+"1274","Logistic","fn",0.61,27
+"1275","Logistic","fn",0.62,27
+"1276","Logistic","fn",0.63,28.5
+"1277","Logistic","fn",0.64,30
+"1278","Logistic","fn",0.65,30
+"1279","Logistic","fn",0.66,30
+"1280","Logistic","fn",0.67,33.5
+"1281","Logistic","fn",0.68,34
+"1282","Logistic","fn",0.69,36.5
+"1283","Logistic","fn",0.7,37
+"1284","Logistic","fn",0.71,37
+"1285","Logistic","fn",0.72,37.5
+"1286","Logistic","fn",0.73,39.5
+"1287","Logistic","fn",0.74,40
+"1288","Logistic","fn",0.75,41.5
+"1289","Logistic","fn",0.76,42
+"1290","Logistic","fn",0.77,43.5
+"1291","Logistic","fn",0.78,45
+"1292","Logistic","fn",0.79,45
+"1293","Logistic","fn",0.8,45
+"1294","Logistic","fn",0.81,45
+"1295","Logistic","fn",0.82,47.5
+"1296","Logistic","fn",0.83,49
+"1297","Logistic","fn",0.84,50.5
+"1298","Logistic","fn",0.85,55
+"1299","Logistic","fn",0.86,58
+"1300","Logistic","fn",0.87,70
+"1301","Logistic","fn",0.88,84
+"1302","Logistic","fn",0.89,89.5
+"1303","Logistic","fn",0.9,94
+"1304","Logistic","fn",0.91,107
+"1305","Logistic","fn",0.92,116.5
+"1306","Logistic","fn",0.93,120.5
+"1307","Logistic","fn",0.94,124
+"1308","Logistic","fn",0.95,130
+"1309","Logistic","fn",0.96,133
+"1310","Logistic","fn",0.97,135.5
+"1311","Logistic","fn",0.98,136
+"1312","Logistic","fn",0.99,136.5
+"1313","Logistic","fn",1,137
+"1314","Logistic","fp",0,86
+"1315","Logistic","fp",0.01,86
+"1316","Logistic","fp",0.02,86
+"1317","Logistic","fp",0.03,86
+"1318","Logistic","fp",0.04,83.5
+"1319","Logistic","fp",0.05,79
+"1320","Logistic","fp",0.06,72.5
+"1321","Logistic","fp",0.07,71.5
+"1322","Logistic","fp",0.08,69.5
+"1323","Logistic","fp",0.09,68
+"1324","Logistic","fp",0.1,66
+"1325","Logistic","fp",0.11,63
+"1326","Logistic","fp",0.12,62
+"1327","Logistic","fp",0.13,57.5
+"1328","Logistic","fp",0.14,55.5
+"1329","Logistic","fp",0.15,52.5
+"1330","Logistic","fp",0.16,50.5
+"1331","Logistic","fp",0.17,50
+"1332","Logistic","fp",0.18,50
+"1333","Logistic","fp",0.19,49
+"1334","Logistic","fp",0.2,49
+"1335","Logistic","fp",0.21,48.5
+"1336","Logistic","fp",0.22,47.5
+"1337","Logistic","fp",0.23,44
+"1338","Logistic","fp",0.24,44
+"1339","Logistic","fp",0.25,43.5
+"1340","Logistic","fp",0.26,41
+"1341","Logistic","fp",0.27,40
+"1342","Logistic","fp",0.28,39
+"1343","Logistic","fp",0.29,36.5
+"1344","Logistic","fp",0.3,35
+"1345","Logistic","fp",0.31,34.5
+"1346","Logistic","fp",0.32,26
+"1347","Logistic","fp",0.33,25
+"1348","Logistic","fp",0.34,25
+"1349","Logistic","fp",0.35,25
+"1350","Logistic","fp",0.36,25
+"1351","Logistic","fp",0.37,24.5
+"1352","Logistic","fp",0.38,22.5
+"1353","Logistic","fp",0.39,21.5
+"1354","Logistic","fp",0.4,21
+"1355","Logistic","fp",0.41,21
+"1356","Logistic","fp",0.42,19.5
+"1357","Logistic","fp",0.43,19
+"1358","Logistic","fp",0.44,19
+"1359","Logistic","fp",0.45,19
+"1360","Logistic","fp",0.46,19
+"1361","Logistic","fp",0.47,19
+"1362","Logistic","fp",0.48,18.5
+"1363","Logistic","fp",0.49,18
+"1364","Logistic","fp",0.5,18
+"1365","Logistic","fp",0.51,18
+"1366","Logistic","fp",0.52,15.5
+"1367","Logistic","fp",0.53,15
+"1368","Logistic","fp",0.54,14.5
+"1369","Logistic","fp",0.55,13.5
+"1370","Logistic","fp",0.56,13
+"1371","Logistic","fp",0.57,12
+"1372","Logistic","fp",0.58,11
+"1373","Logistic","fp",0.59,9
+"1374","Logistic","fp",0.6,9
+"1375","Logistic","fp",0.61,9
+"1376","Logistic","fp",0.62,9
+"1377","Logistic","fp",0.63,9
+"1378","Logistic","fp",0.64,9
+"1379","Logistic","fp",0.65,9
+"1380","Logistic","fp",0.66,9
+"1381","Logistic","fp",0.67,8.5
+"1382","Logistic","fp",0.68,8
+"1383","Logistic","fp",0.69,7
+"1384","Logistic","fp",0.7,7
+"1385","Logistic","fp",0.71,7
+"1386","Logistic","fp",0.72,6
+"1387","Logistic","fp",0.73,6
+"1388","Logistic","fp",0.74,6
+"1389","Logistic","fp",0.75,6
+"1390","Logistic","fp",0.76,6
+"1391","Logistic","fp",0.77,6
+"1392","Logistic","fp",0.78,6
+"1393","Logistic","fp",0.79,5.5
+"1394","Logistic","fp",0.8,5
+"1395","Logistic","fp",0.81,5
+"1396","Logistic","fp",0.82,4.5
+"1397","Logistic","fp",0.83,4
+"1398","Logistic","fp",0.84,4
+"1399","Logistic","fp",0.85,4
+"1400","Logistic","fp",0.86,4
+"1401","Logistic","fp",0.87,2.5
+"1402","Logistic","fp",0.88,2
+"1403","Logistic","fp",0.89,2
+"1404","Logistic","fp",0.9,2
+"1405","Logistic","fp",0.91,0.5
+"1406","Logistic","fp",0.92,0
+"1407","Logistic","fp",0.93,0
+"1408","Logistic","fp",0.94,0
+"1409","Logistic","fp",0.95,0
+"1410","Logistic","fp",0.96,0
+"1411","Logistic","fp",0.97,0
+"1412","Logistic","fp",0.98,0
+"1413","Logistic","fp",0.99,0
+"1414","Logistic","fp",1,0
+"1415","Logistic","ppv",0,0.61
+"1416","Logistic","ppv",0.01,0.61
+"1417","Logistic","ppv",0.02,0.61
+"1418","Logistic","ppv",0.03,0.61
+"1419","Logistic","ppv",0.04,0.625
+"1420","Logistic","ppv",0.05,0.635
+"1421","Logistic","ppv",0.06,0.655
+"1422","Logistic","ppv",0.07,0.66
+"1423","Logistic","ppv",0.08,0.66
+"1424","Logistic","ppv",0.09,0.665
+"1425","Logistic","ppv",0.1,0.675
+"1426","Logistic","ppv",0.11,0.68
+"1427","Logistic","ppv",0.12,0.685
+"1428","Logistic","ppv",0.13,0.705
+"1429","Logistic","ppv",0.14,0.71
+"1430","Logistic","ppv",0.15,0.72
+"1431","Logistic","ppv",0.16,0.73
+"1432","Logistic","ppv",0.17,0.73
+"1433","Logistic","ppv",0.18,0.73
+"1434","Logistic","ppv",0.19,0.74
+"1435","Logistic","ppv",0.2,0.73
+"1436","Logistic","ppv",0.21,0.735
+"1437","Logistic","ppv",0.22,0.74
+"1438","Logistic","ppv",0.23,0.75
+"1439","Logistic","ppv",0.24,0.75
+"1440","Logistic","ppv",0.25,0.755
+"1441","Logistic","ppv",0.26,0.76
+"1442","Logistic","ppv",0.27,0.77
+"1443","Logistic","ppv",0.28,0.775
+"1444","Logistic","ppv",0.29,0.785
+"1445","Logistic","ppv",0.3,0.79
+"1446","Logistic","ppv",0.31,0.795
+"1447","Logistic","ppv",0.32,0.83
+"1448","Logistic","ppv",0.33,0.84
+"1449","Logistic","ppv",0.34,0.84
+"1450","Logistic","ppv",0.35,0.84
+"1451","Logistic","ppv",0.36,0.84
+"1452","Logistic","ppv",0.37,0.84
+"1453","Logistic","ppv",0.38,0.85
+"1454","Logistic","ppv",0.39,0.855
+"1455","Logistic","ppv",0.4,0.86
+"1456","Logistic","ppv",0.41,0.85
+"1457","Logistic","ppv",0.42,0.865
+"1458","Logistic","ppv",0.43,0.87
+"1459","Logistic","ppv",0.44,0.86
+"1460","Logistic","ppv",0.45,0.86
+"1461","Logistic","ppv",0.46,0.86
+"1462","Logistic","ppv",0.47,0.86
+"1463","Logistic","ppv",0.48,0.865
+"1464","Logistic","ppv",0.49,0.87
+"1465","Logistic","ppv",0.5,0.87
+"1466","Logistic","ppv",0.51,0.865
+"1467","Logistic","ppv",0.52,0.88
+"1468","Logistic","ppv",0.53,0.88
+"1469","Logistic","ppv",0.54,0.885
+"1470","Logistic","ppv",0.55,0.895
+"1471","Logistic","ppv",0.56,0.9
+"1472","Logistic","ppv",0.57,0.9
+"1473","Logistic","ppv",0.58,0.91
+"1474","Logistic","ppv",0.59,0.92
+"1475","Logistic","ppv",0.6,0.92
+"1476","Logistic","ppv",0.61,0.92
+"1477","Logistic","ppv",0.62,0.92
+"1478","Logistic","ppv",0.63,0.92
+"1479","Logistic","ppv",0.64,0.92
+"1480","Logistic","ppv",0.65,0.92
+"1481","Logistic","ppv",0.66,0.92
+"1482","Logistic","ppv",0.67,0.925
+"1483","Logistic","ppv",0.68,0.93
+"1484","Logistic","ppv",0.69,0.935
+"1485","Logistic","ppv",0.7,0.93
+"1486","Logistic","ppv",0.71,0.93
+"1487","Logistic","ppv",0.72,0.94
+"1488","Logistic","ppv",0.73,0.94
+"1489","Logistic","ppv",0.74,0.94
+"1490","Logistic","ppv",0.75,0.94
+"1491","Logistic","ppv",0.76,0.94
+"1492","Logistic","ppv",0.77,0.94
+"1493","Logistic","ppv",0.78,0.94
+"1494","Logistic","ppv",0.79,0.945
+"1495","Logistic","ppv",0.8,0.95
+"1496","Logistic","ppv",0.81,0.95
+"1497","Logistic","ppv",0.82,0.955
+"1498","Logistic","ppv",0.83,0.96
+"1499","Logistic","ppv",0.84,0.96
+"1500","Logistic","ppv",0.85,0.95
+"1501","Logistic","ppv",0.86,0.95
+"1502","Logistic","ppv",0.87,0.965
+"1503","Logistic","ppv",0.88,0.96
+"1504","Logistic","ppv",0.89,0.96
+"1505","Logistic","ppv",0.9,0.96
+"1506","Logistic","ppv",0.91,0.985
+"1507","Logistic","ppv",0.92,1
+"1508","Logistic","ppv",0.93,1
+"1509","Logistic","ppv",0.94,1
+"1510","Logistic","ppv",0.95,1
+"1511","Logistic","ppv",0.96,1
+"1512","Logistic","ppv",0.97,1
+"1513","Logistic","ppv",0.98,1
+"1514","Logistic","ppv",0.99,1
+"1515","Logistic","ppv",1,1
+"1516","Logistic","tn",0,0
+"1517","Logistic","tn",0.01,0
+"1518","Logistic","tn",0.02,0
+"1519","Logistic","tn",0.03,0
+"1520","Logistic","tn",0.04,2.5
+"1521","Logistic","tn",0.05,7
+"1522","Logistic","tn",0.06,13.5
+"1523","Logistic","tn",0.07,14.5
+"1524","Logistic","tn",0.08,16.5
+"1525","Logistic","tn",0.09,18
+"1526","Logistic","tn",0.1,20
+"1527","Logistic","tn",0.11,23
+"1528","Logistic","tn",0.12,24
+"1529","Logistic","tn",0.13,28.5
+"1530","Logistic","tn",0.14,30.5
+"1531","Logistic","tn",0.15,33.5
+"1532","Logistic","tn",0.16,35.5
+"1533","Logistic","tn",0.17,36
+"1534","Logistic","tn",0.18,36
+"1535","Logistic","tn",0.19,37
+"1536","Logistic","tn",0.2,37
+"1537","Logistic","tn",0.21,37.5
+"1538","Logistic","tn",0.22,38.5
+"1539","Logistic","tn",0.23,42
+"1540","Logistic","tn",0.24,42
+"1541","Logistic","tn",0.25,42.5
+"1542","Logistic","tn",0.26,45
+"1543","Logistic","tn",0.27,46
+"1544","Logistic","tn",0.28,47
+"1545","Logistic","tn",0.29,49.5
+"1546","Logistic","tn",0.3,51
+"1547","Logistic","tn",0.31,51.5
+"1548","Logistic","tn",0.32,60
+"1549","Logistic","tn",0.33,61
+"1550","Logistic","tn",0.34,61
+"1551","Logistic","tn",0.35,61
+"1552","Logistic","tn",0.36,61
+"1553","Logistic","tn",0.37,61.5
+"1554","Logistic","tn",0.38,63.5
+"1555","Logistic","tn",0.39,64.5
+"1556","Logistic","tn",0.4,65
+"1557","Logistic","tn",0.41,65
+"1558","Logistic","tn",0.42,66.5
+"1559","Logistic","tn",0.43,67
+"1560","Logistic","tn",0.44,67
+"1561","Logistic","tn",0.45,67
+"1562","Logistic","tn",0.46,67
+"1563","Logistic","tn",0.47,67
+"1564","Logistic","tn",0.48,67.5
+"1565","Logistic","tn",0.49,68
+"1566","Logistic","tn",0.5,68
+"1567","Logistic","tn",0.51,68
+"1568","Logistic","tn",0.52,70.5
+"1569","Logistic","tn",0.53,71
+"1570","Logistic","tn",0.54,71.5
+"1571","Logistic","tn",0.55,72.5
+"1572","Logistic","tn",0.56,73
+"1573","Logistic","tn",0.57,74
+"1574","Logistic","tn",0.58,75
+"1575","Logistic","tn",0.59,77
+"1576","Logistic","tn",0.6,77
+"1577","Logistic","tn",0.61,77
+"1578","Logistic","tn",0.62,77
+"1579","Logistic","tn",0.63,77
+"1580","Logistic","tn",0.64,77
+"1581","Logistic","tn",0.65,77
+"1582","Logistic","tn",0.66,77
+"1583","Logistic","tn",0.67,77.5
+"1584","Logistic","tn",0.68,78
+"1585","Logistic","tn",0.69,79
+"1586","Logistic","tn",0.7,79
+"1587","Logistic","tn",0.71,79
+"1588","Logistic","tn",0.72,80
+"1589","Logistic","tn",0.73,80
+"1590","Logistic","tn",0.74,80
+"1591","Logistic","tn",0.75,80
+"1592","Logistic","tn",0.76,80
+"1593","Logistic","tn",0.77,80
+"1594","Logistic","tn",0.78,80
+"1595","Logistic","tn",0.79,80.5
+"1596","Logistic","tn",0.8,81
+"1597","Logistic","tn",0.81,81
+"1598","Logistic","tn",0.82,81.5
+"1599","Logistic","tn",0.83,82
+"1600","Logistic","tn",0.84,82
+"1601","Logistic","tn",0.85,82
+"1602","Logistic","tn",0.86,82
+"1603","Logistic","tn",0.87,83.5
+"1604","Logistic","tn",0.88,84
+"1605","Logistic","tn",0.89,84
+"1606","Logistic","tn",0.9,84
+"1607","Logistic","tn",0.91,85.5
+"1608","Logistic","tn",0.92,86
+"1609","Logistic","tn",0.93,86
+"1610","Logistic","tn",0.94,86
+"1611","Logistic","tn",0.95,86
+"1612","Logistic","tn",0.96,86
+"1613","Logistic","tn",0.97,86
+"1614","Logistic","tn",0.98,86
+"1615","Logistic","tn",0.99,86
+"1616","Logistic","tn",1,86
+"1617","Logistic","tp",0,137
+"1618","Logistic","tp",0.01,137
+"1619","Logistic","tp",0.02,137
+"1620","Logistic","tp",0.03,137
+"1621","Logistic","tp",0.04,137
+"1622","Logistic","tp",0.05,137
+"1623","Logistic","tp",0.06,137
+"1624","Logistic","tp",0.07,137
+"1625","Logistic","tp",0.08,136
+"1626","Logistic","tp",0.09,136
+"1627","Logistic","tp",0.1,136
+"1628","Logistic","tp",0.11,136
+"1629","Logistic","tp",0.12,136
+"1630","Logistic","tp",0.13,136
+"1631","Logistic","tp",0.14,136
+"1632","Logistic","tp",0.15,136
+"1633","Logistic","tp",0.16,136
+"1634","Logistic","tp",0.17,136
+"1635","Logistic","tp",0.18,136
+"1636","Logistic","tp",0.19,136
+"1637","Logistic","tp",0.2,135
+"1638","Logistic","tp",0.21,135
+"1639","Logistic","tp",0.22,135
+"1640","Logistic","tp",0.23,133.5
+"1641","Logistic","tp",0.24,133
+"1642","Logistic","tp",0.25,133
+"1643","Logistic","tp",0.26,133
+"1644","Logistic","tp",0.27,133
+"1645","Logistic","tp",0.28,133
+"1646","Logistic","tp",0.29,133
+"1647","Logistic","tp",0.3,132.5
+"1648","Logistic","tp",0.31,132
+"1649","Logistic","tp",0.32,130
+"1650","Logistic","tp",0.33,130
+"1651","Logistic","tp",0.34,130
+"1652","Logistic","tp",0.35,129.5
+"1653","Logistic","tp",0.36,128
+"1654","Logistic","tp",0.37,128
+"1655","Logistic","tp",0.38,128
+"1656","Logistic","tp",0.39,126
+"1657","Logistic","tp",0.4,124.5
+"1658","Logistic","tp",0.41,122.5
+"1659","Logistic","tp",0.42,122
+"1660","Logistic","tp",0.43,122
+"1661","Logistic","tp",0.44,120.5
+"1662","Logistic","tp",0.45,120
+"1663","Logistic","tp",0.46,120
+"1664","Logistic","tp",0.47,120
+"1665","Logistic","tp",0.48,120
+"1666","Logistic","tp",0.49,119
+"1667","Logistic","tp",0.5,117.5
+"1668","Logistic","tp",0.51,115
+"1669","Logistic","tp",0.52,113
+"1670","Logistic","tp",0.53,112
+"1671","Logistic","tp",0.54,112
+"1672","Logistic","tp",0.55,112
+"1673","Logistic","tp",0.56,111
+"1674","Logistic","tp",0.57,111
+"1675","Logistic","tp",0.58,111
+"1676","Logistic","tp",0.59,110
+"1677","Logistic","tp",0.6,110
+"1678","Logistic","tp",0.61,110
+"1679","Logistic","tp",0.62,110
+"1680","Logistic","tp",0.63,108.5
+"1681","Logistic","tp",0.64,107
+"1682","Logistic","tp",0.65,107
+"1683","Logistic","tp",0.66,107
+"1684","Logistic","tp",0.67,103.5
+"1685","Logistic","tp",0.68,103
+"1686","Logistic","tp",0.69,100.5
+"1687","Logistic","tp",0.7,100
+"1688","Logistic","tp",0.71,100
+"1689","Logistic","tp",0.72,99.5
+"1690","Logistic","tp",0.73,97.5
+"1691","Logistic","tp",0.74,97
+"1692","Logistic","tp",0.75,95.5
+"1693","Logistic","tp",0.76,95
+"1694","Logistic","tp",0.77,93.5
+"1695","Logistic","tp",0.78,92
+"1696","Logistic","tp",0.79,92
+"1697","Logistic","tp",0.8,92
+"1698","Logistic","tp",0.81,92
+"1699","Logistic","tp",0.82,89.5
+"1700","Logistic","tp",0.83,88
+"1701","Logistic","tp",0.84,86.5
+"1702","Logistic","tp",0.85,82
+"1703","Logistic","tp",0.86,79
+"1704","Logistic","tp",0.87,67
+"1705","Logistic","tp",0.88,53
+"1706","Logistic","tp",0.89,47.5
+"1707","Logistic","tp",0.9,43
+"1708","Logistic","tp",0.91,30
+"1709","Logistic","tp",0.92,20.5
+"1710","Logistic","tp",0.93,16.5
+"1711","Logistic","tp",0.94,13
+"1712","Logistic","tp",0.95,7
+"1713","Logistic","tp",0.96,4
+"1714","Logistic","tp",0.97,1.5
+"1715","Logistic","tp",0.98,1
+"1716","Logistic","tp",0.99,0.5
+"1717","Logistic","tp",1,0
+"1718","Logistic","tpr",0,1
+"1719","Logistic","tpr",0.01,1
+"1720","Logistic","tpr",0.02,1
+"1721","Logistic","tpr",0.03,1
+"1722","Logistic","tpr",0.04,1
+"1723","Logistic","tpr",0.05,1
+"1724","Logistic","tpr",0.06,1
+"1725","Logistic","tpr",0.07,1
+"1726","Logistic","tpr",0.08,0.99
+"1727","Logistic","tpr",0.09,0.99
+"1728","Logistic","tpr",0.1,0.99
+"1729","Logistic","tpr",0.11,0.99
+"1730","Logistic","tpr",0.12,0.99
+"1731","Logistic","tpr",0.13,0.99
+"1732","Logistic","tpr",0.14,0.99
+"1733","Logistic","tpr",0.15,0.99
+"1734","Logistic","tpr",0.16,0.99
+"1735","Logistic","tpr",0.17,0.99
+"1736","Logistic","tpr",0.18,0.99
+"1737","Logistic","tpr",0.19,0.99
+"1738","Logistic","tpr",0.2,0.99
+"1739","Logistic","tpr",0.21,0.99
+"1740","Logistic","tpr",0.22,0.99
+"1741","Logistic","tpr",0.23,0.975
+"1742","Logistic","tpr",0.24,0.97
+"1743","Logistic","tpr",0.25,0.97
+"1744","Logistic","tpr",0.26,0.97
+"1745","Logistic","tpr",0.27,0.97
+"1746","Logistic","tpr",0.28,0.97
+"1747","Logistic","tpr",0.29,0.97
+"1748","Logistic","tpr",0.3,0.965
+"1749","Logistic","tpr",0.31,0.96
+"1750","Logistic","tpr",0.32,0.95
+"1751","Logistic","tpr",0.33,0.95
+"1752","Logistic","tpr",0.34,0.95
+"1753","Logistic","tpr",0.35,0.945
+"1754","Logistic","tpr",0.36,0.93
+"1755","Logistic","tpr",0.37,0.93
+"1756","Logistic","tpr",0.38,0.93
+"1757","Logistic","tpr",0.39,0.92
+"1758","Logistic","tpr",0.4,0.91
+"1759","Logistic","tpr",0.41,0.895
+"1760","Logistic","tpr",0.42,0.89
+"1761","Logistic","tpr",0.43,0.89
+"1762","Logistic","tpr",0.44,0.88
+"1763","Logistic","tpr",0.45,0.88
+"1764","Logistic","tpr",0.46,0.88
+"1765","Logistic","tpr",0.47,0.88
+"1766","Logistic","tpr",0.48,0.88
+"1767","Logistic","tpr",0.49,0.87
+"1768","Logistic","tpr",0.5,0.855
+"1769","Logistic","tpr",0.51,0.84
+"1770","Logistic","tpr",0.52,0.825
+"1771","Logistic","tpr",0.53,0.82
+"1772","Logistic","tpr",0.54,0.82
+"1773","Logistic","tpr",0.55,0.82
+"1774","Logistic","tpr",0.56,0.81
+"1775","Logistic","tpr",0.57,0.81
+"1776","Logistic","tpr",0.58,0.81
+"1777","Logistic","tpr",0.59,0.8
+"1778","Logistic","tpr",0.6,0.8
+"1779","Logistic","tpr",0.61,0.8
+"1780","Logistic","tpr",0.62,0.8
+"1781","Logistic","tpr",0.63,0.795
+"1782","Logistic","tpr",0.64,0.78
+"1783","Logistic","tpr",0.65,0.78
+"1784","Logistic","tpr",0.66,0.78
+"1785","Logistic","tpr",0.67,0.755
+"1786","Logistic","tpr",0.68,0.75
+"1787","Logistic","tpr",0.69,0.735
+"1788","Logistic","tpr",0.7,0.73
+"1789","Logistic","tpr",0.71,0.73
+"1790","Logistic","tpr",0.72,0.725
+"1791","Logistic","tpr",0.73,0.715
+"1792","Logistic","tpr",0.74,0.71
+"1793","Logistic","tpr",0.75,0.695
+"1794","Logistic","tpr",0.76,0.69
+"1795","Logistic","tpr",0.77,0.685
+"1796","Logistic","tpr",0.78,0.67
+"1797","Logistic","tpr",0.79,0.67
+"1798","Logistic","tpr",0.8,0.67
+"1799","Logistic","tpr",0.81,0.67
+"1800","Logistic","tpr",0.82,0.655
+"1801","Logistic","tpr",0.83,0.645
+"1802","Logistic","tpr",0.84,0.635
+"1803","Logistic","tpr",0.85,0.6
+"1804","Logistic","tpr",0.86,0.575
+"1805","Logistic","tpr",0.87,0.49
+"1806","Logistic","tpr",0.88,0.385
+"1807","Logistic","tpr",0.89,0.35
+"1808","Logistic","tpr",0.9,0.31
+"1809","Logistic","tpr",0.91,0.22
+"1810","Logistic","tpr",0.92,0.15
+"1811","Logistic","tpr",0.93,0.12
+"1812","Logistic","tpr",0.94,0.095
+"1813","Logistic","tpr",0.95,0.05
+"1814","Logistic","tpr",0.96,0.03
+"1815","Logistic","tpr",0.97,0.01
+"1816","Logistic","tpr",0.98,0.01
+"1817","Logistic","tpr",0.99,0.005
+"1818","Logistic","tpr",1,0
+"1819","RF","fn",0,0
+"1820","RF","fn",0.01,0
+"1821","RF","fn",0.02,0
+"1822","RF","fn",0.03,0
+"1823","RF","fn",0.04,0
+"1824","RF","fn",0.05,0
+"1825","RF","fn",0.06,0
+"1826","RF","fn",0.07,0
+"1827","RF","fn",0.08,0
+"1828","RF","fn",0.09,0
+"1829","RF","fn",0.1,0
+"1830","RF","fn",0.11,0
+"1831","RF","fn",0.12,0
+"1832","RF","fn",0.13,0
+"1833","RF","fn",0.14,0
+"1834","RF","fn",0.15,0
+"1835","RF","fn",0.16,0
+"1836","RF","fn",0.17,0
+"1837","RF","fn",0.18,0
+"1838","RF","fn",0.19,0
+"1839","RF","fn",0.2,0
+"1840","RF","fn",0.21,0
+"1841","RF","fn",0.22,0
+"1842","RF","fn",0.23,0
+"1843","RF","fn",0.24,0
+"1844","RF","fn",0.25,0
+"1845","RF","fn",0.26,0
+"1846","RF","fn",0.27,0
+"1847","RF","fn",0.28,0
+"1848","RF","fn",0.29,0
+"1849","RF","fn",0.3,0
+"1850","RF","fn",0.31,0
+"1851","RF","fn",0.32,0
+"1852","RF","fn",0.33,0
+"1853","RF","fn",0.34,0
+"1854","RF","fn",0.35,0
+"1855","RF","fn",0.36,0
+"1856","RF","fn",0.37,0
+"1857","RF","fn",0.38,0
+"1858","RF","fn",0.39,0.5
+"1859","RF","fn",0.4,1
+"1860","RF","fn",0.41,1
+"1861","RF","fn",0.42,1
+"1862","RF","fn",0.43,1
+"1863","RF","fn",0.44,1
+"1864","RF","fn",0.45,1
+"1865","RF","fn",0.46,1
+"1866","RF","fn",0.47,1
+"1867","RF","fn",0.48,1
+"1868","RF","fn",0.49,2.5
+"1869","RF","fn",0.5,3
+"1870","RF","fn",0.51,4
+"1871","RF","fn",0.52,5
+"1872","RF","fn",0.53,5
+"1873","RF","fn",0.54,5
+"1874","RF","fn",0.55,5
+"1875","RF","fn",0.56,6
+"1876","RF","fn",0.57,7
+"1877","RF","fn",0.58,7
+"1878","RF","fn",0.59,7
+"1879","RF","fn",0.6,7
+"1880","RF","fn",0.61,7
+"1881","RF","fn",0.62,8
+"1882","RF","fn",0.63,8
+"1883","RF","fn",0.64,8
+"1884","RF","fn",0.65,8.5
+"1885","RF","fn",0.66,9
+"1886","RF","fn",0.67,9
+"1887","RF","fn",0.68,9
+"1888","RF","fn",0.69,9.5
+"1889","RF","fn",0.7,10.5
+"1890","RF","fn",0.71,11
+"1891","RF","fn",0.72,11
+"1892","RF","fn",0.73,11
+"1893","RF","fn",0.74,12
+"1894","RF","fn",0.75,13
+"1895","RF","fn",0.76,14
+"1896","RF","fn",0.77,16
+"1897","RF","fn",0.78,16
+"1898","RF","fn",0.79,16.5
+"1899","RF","fn",0.8,18.5
+"1900","RF","fn",0.81,19.5
+"1901","RF","fn",0.82,23
+"1902","RF","fn",0.83,23
+"1903","RF","fn",0.84,24.5
+"1904","RF","fn",0.85,28
+"1905","RF","fn",0.86,31
+"1906","RF","fn",0.87,33.5
+"1907","RF","fn",0.88,34.5
+"1908","RF","fn",0.89,37
+"1909","RF","fn",0.9,41
+"1910","RF","fn",0.91,41.5
+"1911","RF","fn",0.92,45
+"1912","RF","fn",0.93,46
+"1913","RF","fn",0.94,49.5
+"1914","RF","fn",0.95,52.5
+"1915","RF","fn",0.96,59.5
+"1916","RF","fn",0.97,65.5
+"1917","RF","fn",0.98,78.5
+"1918","RF","fn",0.99,97
+"1919","RF","fn",1,137
+"1920","RF","fp",0,86
+"1921","RF","fp",0.01,75
+"1922","RF","fp",0.02,66.5
+"1923","RF","fp",0.03,59
+"1924","RF","fp",0.04,55
+"1925","RF","fp",0.05,50.5
+"1926","RF","fp",0.06,49.5
+"1927","RF","fp",0.07,47
+"1928","RF","fp",0.08,43
+"1929","RF","fp",0.09,39.5
+"1930","RF","fp",0.1,36
+"1931","RF","fp",0.11,35
+"1932","RF","fp",0.12,34.5
+"1933","RF","fp",0.13,33
+"1934","RF","fp",0.14,32
+"1935","RF","fp",0.15,30.5
+"1936","RF","fp",0.16,29
+"1937","RF","fp",0.17,28.5
+"1938","RF","fp",0.18,28
+"1939","RF","fp",0.19,28
+"1940","RF","fp",0.2,28
+"1941","RF","fp",0.21,27.5
+"1942","RF","fp",0.22,27
+"1943","RF","fp",0.23,27
+"1944","RF","fp",0.24,27
+"1945","RF","fp",0.25,27
+"1946","RF","fp",0.26,26
+"1947","RF","fp",0.27,26
+"1948","RF","fp",0.28,25.5
+"1949","RF","fp",0.29,25
+"1950","RF","fp",0.3,24.5
+"1951","RF","fp",0.31,24
+"1952","RF","fp",0.32,23
+"1953","RF","fp",0.33,23
+"1954","RF","fp",0.34,22.5
+"1955","RF","fp",0.35,22
+"1956","RF","fp",0.36,22
+"1957","RF","fp",0.37,22
+"1958","RF","fp",0.38,20.5
+"1959","RF","fp",0.39,20
+"1960","RF","fp",0.4,20
+"1961","RF","fp",0.41,19.5
+"1962","RF","fp",0.42,17
+"1963","RF","fp",0.43,16.5
+"1964","RF","fp",0.44,16
+"1965","RF","fp",0.45,14
+"1966","RF","fp",0.46,14
+"1967","RF","fp",0.47,13
+"1968","RF","fp",0.48,11.5
+"1969","RF","fp",0.49,10.5
+"1970","RF","fp",0.5,10
+"1971","RF","fp",0.51,10
+"1972","RF","fp",0.52,9.5
+"1973","RF","fp",0.53,8.5
+"1974","RF","fp",0.54,8
+"1975","RF","fp",0.55,8
+"1976","RF","fp",0.56,7
+"1977","RF","fp",0.57,6
+"1978","RF","fp",0.58,6
+"1979","RF","fp",0.59,6
+"1980","RF","fp",0.6,6
+"1981","RF","fp",0.61,5
+"1982","RF","fp",0.62,5
+"1983","RF","fp",0.63,5
+"1984","RF","fp",0.64,5
+"1985","RF","fp",0.65,4
+"1986","RF","fp",0.66,4
+"1987","RF","fp",0.67,4
+"1988","RF","fp",0.68,4
+"1989","RF","fp",0.69,4
+"1990","RF","fp",0.7,3
+"1991","RF","fp",0.71,3
+"1992","RF","fp",0.72,3
+"1993","RF","fp",0.73,3
+"1994","RF","fp",0.74,3
+"1995","RF","fp",0.75,3
+"1996","RF","fp",0.76,3
+"1997","RF","fp",0.77,3
+"1998","RF","fp",0.78,3
+"1999","RF","fp",0.79,3
+"2000","RF","fp",0.8,3
+"2001","RF","fp",0.81,2.5
+"2002","RF","fp",0.82,2
+"2003","RF","fp",0.83,2
+"2004","RF","fp",0.84,2
+"2005","RF","fp",0.85,1
+"2006","RF","fp",0.86,1
+"2007","RF","fp",0.87,1
+"2008","RF","fp",0.88,1
+"2009","RF","fp",0.89,1
+"2010","RF","fp",0.9,1
+"2011","RF","fp",0.91,1
+"2012","RF","fp",0.92,1
+"2013","RF","fp",0.93,1
+"2014","RF","fp",0.94,1
+"2015","RF","fp",0.95,1
+"2016","RF","fp",0.96,1
+"2017","RF","fp",0.97,0.5
+"2018","RF","fp",0.98,0
+"2019","RF","fp",0.99,0
+"2020","RF","fp",1,0
+"2021","RF","ppv",0,0.61
+"2022","RF","ppv",0.01,0.65
+"2023","RF","ppv",0.02,0.675
+"2024","RF","ppv",0.03,0.7
+"2025","RF","ppv",0.04,0.715
+"2026","RF","ppv",0.05,0.73
+"2027","RF","ppv",0.06,0.735
+"2028","RF","ppv",0.07,0.745
+"2029","RF","ppv",0.08,0.765
+"2030","RF","ppv",0.09,0.78
+"2031","RF","ppv",0.1,0.79
+"2032","RF","ppv",0.11,0.8
+"2033","RF","ppv",0.12,0.8
+"2034","RF","ppv",0.13,0.81
+"2035","RF","ppv",0.14,0.81
+"2036","RF","ppv",0.15,0.82
+"2037","RF","ppv",0.16,0.83
+"2038","RF","ppv",0.17,0.83
+"2039","RF","ppv",0.18,0.83
+"2040","RF","ppv",0.19,0.83
+"2041","RF","ppv",0.2,0.83
+"2042","RF","ppv",0.21,0.835
+"2043","RF","ppv",0.22,0.84
+"2044","RF","ppv",0.23,0.84
+"2045","RF","ppv",0.24,0.84
+"2046","RF","ppv",0.25,0.84
+"2047","RF","ppv",0.26,0.84
+"2048","RF","ppv",0.27,0.84
+"2049","RF","ppv",0.28,0.845
+"2050","RF","ppv",0.29,0.85
+"2051","RF","ppv",0.3,0.85
+"2052","RF","ppv",0.31,0.85
+"2053","RF","ppv",0.32,0.86
+"2054","RF","ppv",0.33,0.86
+"2055","RF","ppv",0.34,0.86
+"2056","RF","ppv",0.35,0.86
+"2057","RF","ppv",0.36,0.86
+"2058","RF","ppv",0.37,0.86
+"2059","RF","ppv",0.38,0.87
+"2060","RF","ppv",0.39,0.87
+"2061","RF","ppv",0.4,0.87
+"2062","RF","ppv",0.41,0.875
+"2063","RF","ppv",0.42,0.89
+"2064","RF","ppv",0.43,0.89
+"2065","RF","ppv",0.44,0.89
+"2066","RF","ppv",0.45,0.91
+"2067","RF","ppv",0.46,0.91
+"2068","RF","ppv",0.47,0.915
+"2069","RF","ppv",0.48,0.925
+"2070","RF","ppv",0.49,0.925
+"2071","RF","ppv",0.5,0.93
+"2072","RF","ppv",0.51,0.93
+"2073","RF","ppv",0.52,0.935
+"2074","RF","ppv",0.53,0.94
+"2075","RF","ppv",0.54,0.94
+"2076","RF","ppv",0.55,0.94
+"2077","RF","ppv",0.56,0.95
+"2078","RF","ppv",0.57,0.96
+"2079","RF","ppv",0.58,0.96
+"2080","RF","ppv",0.59,0.96
+"2081","RF","ppv",0.6,0.96
+"2082","RF","ppv",0.61,0.96
+"2083","RF","ppv",0.62,0.96
+"2084","RF","ppv",0.63,0.96
+"2085","RF","ppv",0.64,0.96
+"2086","RF","ppv",0.65,0.97
+"2087","RF","ppv",0.66,0.97
+"2088","RF","ppv",0.67,0.97
+"2089","RF","ppv",0.68,0.97
+"2090","RF","ppv",0.69,0.97
+"2091","RF","ppv",0.7,0.98
+"2092","RF","ppv",0.71,0.98
+"2093","RF","ppv",0.72,0.98
+"2094","RF","ppv",0.73,0.98
+"2095","RF","ppv",0.74,0.98
+"2096","RF","ppv",0.75,0.98
+"2097","RF","ppv",0.76,0.98
+"2098","RF","ppv",0.77,0.98
+"2099","RF","ppv",0.78,0.98
+"2100","RF","ppv",0.79,0.98
+"2101","RF","ppv",0.8,0.98
+"2102","RF","ppv",0.81,0.98
+"2103","RF","ppv",0.82,0.98
+"2104","RF","ppv",0.83,0.98
+"2105","RF","ppv",0.84,0.98
+"2106","RF","ppv",0.85,0.99
+"2107","RF","ppv",0.86,0.99
+"2108","RF","ppv",0.87,0.99
+"2109","RF","ppv",0.88,0.99
+"2110","RF","ppv",0.89,0.99
+"2111","RF","ppv",0.9,0.99
+"2112","RF","ppv",0.91,0.99
+"2113","RF","ppv",0.92,0.99
+"2114","RF","ppv",0.93,0.99
+"2115","RF","ppv",0.94,0.99
+"2116","RF","ppv",0.95,0.99
+"2117","RF","ppv",0.96,0.99
+"2118","RF","ppv",0.97,0.995
+"2119","RF","ppv",0.98,1
+"2120","RF","ppv",0.99,1
+"2121","RF","ppv",1,1
+"2122","RF","tn",0,0
+"2123","RF","tn",0.01,11
+"2124","RF","tn",0.02,19.5
+"2125","RF","tn",0.03,27
+"2126","RF","tn",0.04,31
+"2127","RF","tn",0.05,35.5
+"2128","RF","tn",0.06,36.5
+"2129","RF","tn",0.07,39
+"2130","RF","tn",0.08,43
+"2131","RF","tn",0.09,46.5
+"2132","RF","tn",0.1,50
+"2133","RF","tn",0.11,51
+"2134","RF","tn",0.12,51.5
+"2135","RF","tn",0.13,53
+"2136","RF","tn",0.14,54
+"2137","RF","tn",0.15,55.5
+"2138","RF","tn",0.16,57
+"2139","RF","tn",0.17,57.5
+"2140","RF","tn",0.18,58
+"2141","RF","tn",0.19,58
+"2142","RF","tn",0.2,58
+"2143","RF","tn",0.21,58.5
+"2144","RF","tn",0.22,59
+"2145","RF","tn",0.23,59
+"2146","RF","tn",0.24,59
+"2147","RF","tn",0.25,59
+"2148","RF","tn",0.26,60
+"2149","RF","tn",0.27,60
+"2150","RF","tn",0.28,60.5
+"2151","RF","tn",0.29,61
+"2152","RF","tn",0.3,61.5
+"2153","RF","tn",0.31,62
+"2154","RF","tn",0.32,63
+"2155","RF","tn",0.33,63
+"2156","RF","tn",0.34,63.5
+"2157","RF","tn",0.35,64
+"2158","RF","tn",0.36,64
+"2159","RF","tn",0.37,64
+"2160","RF","tn",0.38,65.5
+"2161","RF","tn",0.39,66
+"2162","RF","tn",0.4,66
+"2163","RF","tn",0.41,66.5
+"2164","RF","tn",0.42,69
+"2165","RF","tn",0.43,69.5
+"2166","RF","tn",0.44,70
+"2167","RF","tn",0.45,72
+"2168","RF","tn",0.46,72
+"2169","RF","tn",0.47,73
+"2170","RF","tn",0.48,74.5
+"2171","RF","tn",0.49,75.5
+"2172","RF","tn",0.5,76
+"2173","RF","tn",0.51,76
+"2174","RF","tn",0.52,76.5
+"2175","RF","tn",0.53,77.5
+"2176","RF","tn",0.54,78
+"2177","RF","tn",0.55,78
+"2178","RF","tn",0.56,79
+"2179","RF","tn",0.57,80
+"2180","RF","tn",0.58,80
+"2181","RF","tn",0.59,80
+"2182","RF","tn",0.6,80
+"2183","RF","tn",0.61,81
+"2184","RF","tn",0.62,81
+"2185","RF","tn",0.63,81
+"2186","RF","tn",0.64,81
+"2187","RF","tn",0.65,82
+"2188","RF","tn",0.66,82
+"2189","RF","tn",0.67,82
+"2190","RF","tn",0.68,82
+"2191","RF","tn",0.69,82
+"2192","RF","tn",0.7,83
+"2193","RF","tn",0.71,83
+"2194","RF","tn",0.72,83
+"2195","RF","tn",0.73,83
+"2196","RF","tn",0.74,83
+"2197","RF","tn",0.75,83
+"2198","RF","tn",0.76,83
+"2199","RF","tn",0.77,83
+"2200","RF","tn",0.78,83
+"2201","RF","tn",0.79,83
+"2202","RF","tn",0.8,83
+"2203","RF","tn",0.81,83.5
+"2204","RF","tn",0.82,84
+"2205","RF","tn",0.83,84
+"2206","RF","tn",0.84,84
+"2207","RF","tn",0.85,85
+"2208","RF","tn",0.86,85
+"2209","RF","tn",0.87,85
+"2210","RF","tn",0.88,85
+"2211","RF","tn",0.89,85
+"2212","RF","tn",0.9,85
+"2213","RF","tn",0.91,85
+"2214","RF","tn",0.92,85
+"2215","RF","tn",0.93,85
+"2216","RF","tn",0.94,85
+"2217","RF","tn",0.95,85
+"2218","RF","tn",0.96,85
+"2219","RF","tn",0.97,85.5
+"2220","RF","tn",0.98,86
+"2221","RF","tn",0.99,86
+"2222","RF","tn",1,86
+"2223","RF","tp",0,137
+"2224","RF","tp",0.01,137
+"2225","RF","tp",0.02,137
+"2226","RF","tp",0.03,137
+"2227","RF","tp",0.04,137
+"2228","RF","tp",0.05,137
+"2229","RF","tp",0.06,137
+"2230","RF","tp",0.07,137
+"2231","RF","tp",0.08,137
+"2232","RF","tp",0.09,137
+"2233","RF","tp",0.1,137
+"2234","RF","tp",0.11,137
+"2235","RF","tp",0.12,137
+"2236","RF","tp",0.13,137
+"2237","RF","tp",0.14,137
+"2238","RF","tp",0.15,137
+"2239","RF","tp",0.16,137
+"2240","RF","tp",0.17,137
+"2241","RF","tp",0.18,137
+"2242","RF","tp",0.19,137
+"2243","RF","tp",0.2,137
+"2244","RF","tp",0.21,137
+"2245","RF","tp",0.22,137
+"2246","RF","tp",0.23,137
+"2247","RF","tp",0.24,137
+"2248","RF","tp",0.25,137
+"2249","RF","tp",0.26,137
+"2250","RF","tp",0.27,137
+"2251","RF","tp",0.28,137
+"2252","RF","tp",0.29,137
+"2253","RF","tp",0.3,137
+"2254","RF","tp",0.31,137
+"2255","RF","tp",0.32,137
+"2256","RF","tp",0.33,137
+"2257","RF","tp",0.34,137
+"2258","RF","tp",0.35,137
+"2259","RF","tp",0.36,137
+"2260","RF","tp",0.37,137
+"2261","RF","tp",0.38,137
+"2262","RF","tp",0.39,136.5
+"2263","RF","tp",0.4,136
+"2264","RF","tp",0.41,136
+"2265","RF","tp",0.42,136
+"2266","RF","tp",0.43,136
+"2267","RF","tp",0.44,136
+"2268","RF","tp",0.45,136
+"2269","RF","tp",0.46,136
+"2270","RF","tp",0.47,136
+"2271","RF","tp",0.48,136
+"2272","RF","tp",0.49,134.5
+"2273","RF","tp",0.5,134
+"2274","RF","tp",0.51,133
+"2275","RF","tp",0.52,132
+"2276","RF","tp",0.53,132
+"2277","RF","tp",0.54,132
+"2278","RF","tp",0.55,132
+"2279","RF","tp",0.56,131
+"2280","RF","tp",0.57,130
+"2281","RF","tp",0.58,130
+"2282","RF","tp",0.59,130
+"2283","RF","tp",0.6,130
+"2284","RF","tp",0.61,130
+"2285","RF","tp",0.62,129
+"2286","RF","tp",0.63,129
+"2287","RF","tp",0.64,129
+"2288","RF","tp",0.65,128.5
+"2289","RF","tp",0.66,128
+"2290","RF","tp",0.67,128
+"2291","RF","tp",0.68,128
+"2292","RF","tp",0.69,127.5
+"2293","RF","tp",0.7,126.5
+"2294","RF","tp",0.71,126
+"2295","RF","tp",0.72,126
+"2296","RF","tp",0.73,126
+"2297","RF","tp",0.74,125
+"2298","RF","tp",0.75,124
+"2299","RF","tp",0.76,123
+"2300","RF","tp",0.77,121
+"2301","RF","tp",0.78,121
+"2302","RF","tp",0.79,120.5
+"2303","RF","tp",0.8,118.5
+"2304","RF","tp",0.81,117.5
+"2305","RF","tp",0.82,114
+"2306","RF","tp",0.83,114
+"2307","RF","tp",0.84,112.5
+"2308","RF","tp",0.85,109
+"2309","RF","tp",0.86,106
+"2310","RF","tp",0.87,103.5
+"2311","RF","tp",0.88,102.5
+"2312","RF","tp",0.89,100
+"2313","RF","tp",0.9,96
+"2314","RF","tp",0.91,95.5
+"2315","RF","tp",0.92,92
+"2316","RF","tp",0.93,91
+"2317","RF","tp",0.94,87.5
+"2318","RF","tp",0.95,84.5
+"2319","RF","tp",0.96,77.5
+"2320","RF","tp",0.97,71.5
+"2321","RF","tp",0.98,58.5
+"2322","RF","tp",0.99,40
+"2323","RF","tp",1,0
+"2324","RF","tpr",0,1
+"2325","RF","tpr",0.01,1
+"2326","RF","tpr",0.02,1
+"2327","RF","tpr",0.03,1
+"2328","RF","tpr",0.04,1
+"2329","RF","tpr",0.05,1
+"2330","RF","tpr",0.06,1
+"2331","RF","tpr",0.07,1
+"2332","RF","tpr",0.08,1
+"2333","RF","tpr",0.09,1
+"2334","RF","tpr",0.1,1
+"2335","RF","tpr",0.11,1
+"2336","RF","tpr",0.12,1
+"2337","RF","tpr",0.13,1
+"2338","RF","tpr",0.14,1
+"2339","RF","tpr",0.15,1
+"2340","RF","tpr",0.16,1
+"2341","RF","tpr",0.17,1
+"2342","RF","tpr",0.18,1
+"2343","RF","tpr",0.19,1
+"2344","RF","tpr",0.2,1
+"2345","RF","tpr",0.21,1
+"2346","RF","tpr",0.22,1
+"2347","RF","tpr",0.23,1
+"2348","RF","tpr",0.24,1
+"2349","RF","tpr",0.25,1
+"2350","RF","tpr",0.26,1
+"2351","RF","tpr",0.27,1
+"2352","RF","tpr",0.28,1
+"2353","RF","tpr",0.29,1
+"2354","RF","tpr",0.3,1
+"2355","RF","tpr",0.31,1
+"2356","RF","tpr",0.32,1
+"2357","RF","tpr",0.33,1
+"2358","RF","tpr",0.34,1
+"2359","RF","tpr",0.35,1
+"2360","RF","tpr",0.36,1
+"2361","RF","tpr",0.37,1
+"2362","RF","tpr",0.38,1
+"2363","RF","tpr",0.39,0.995
+"2364","RF","tpr",0.4,0.99
+"2365","RF","tpr",0.41,0.99
+"2366","RF","tpr",0.42,0.99
+"2367","RF","tpr",0.43,0.99
+"2368","RF","tpr",0.44,0.99
+"2369","RF","tpr",0.45,0.99
+"2370","RF","tpr",0.46,0.99
+"2371","RF","tpr",0.47,0.99
+"2372","RF","tpr",0.48,0.99
+"2373","RF","tpr",0.49,0.985
+"2374","RF","tpr",0.5,0.98
+"2375","RF","tpr",0.51,0.97
+"2376","RF","tpr",0.52,0.96
+"2377","RF","tpr",0.53,0.96
+"2378","RF","tpr",0.54,0.96
+"2379","RF","tpr",0.55,0.96
+"2380","RF","tpr",0.56,0.96
+"2381","RF","tpr",0.57,0.95
+"2382","RF","tpr",0.58,0.95
+"2383","RF","tpr",0.59,0.95
+"2384","RF","tpr",0.6,0.95
+"2385","RF","tpr",0.61,0.95
+"2386","RF","tpr",0.62,0.94
+"2387","RF","tpr",0.63,0.94
+"2388","RF","tpr",0.64,0.94
+"2389","RF","tpr",0.65,0.935
+"2390","RF","tpr",0.66,0.93
+"2391","RF","tpr",0.67,0.93
+"2392","RF","tpr",0.68,0.93
+"2393","RF","tpr",0.69,0.93
+"2394","RF","tpr",0.7,0.925
+"2395","RF","tpr",0.71,0.92
+"2396","RF","tpr",0.72,0.92
+"2397","RF","tpr",0.73,0.92
+"2398","RF","tpr",0.74,0.91
+"2399","RF","tpr",0.75,0.905
+"2400","RF","tpr",0.76,0.9
+"2401","RF","tpr",0.77,0.88
+"2402","RF","tpr",0.78,0.88
+"2403","RF","tpr",0.79,0.88
+"2404","RF","tpr",0.8,0.865
+"2405","RF","tpr",0.81,0.855
+"2406","RF","tpr",0.82,0.83
+"2407","RF","tpr",0.83,0.83
+"2408","RF","tpr",0.84,0.82
+"2409","RF","tpr",0.85,0.795
+"2410","RF","tpr",0.86,0.775
+"2411","RF","tpr",0.87,0.755
+"2412","RF","tpr",0.88,0.745
+"2413","RF","tpr",0.89,0.73
+"2414","RF","tpr",0.9,0.7
+"2415","RF","tpr",0.91,0.695
+"2416","RF","tpr",0.92,0.67
+"2417","RF","tpr",0.93,0.66
+"2418","RF","tpr",0.94,0.64
+"2419","RF","tpr",0.95,0.62
+"2420","RF","tpr",0.96,0.565
+"2421","RF","tpr",0.97,0.52
+"2422","RF","tpr",0.98,0.425
+"2423","RF","tpr",0.99,0.29
+"2424","RF","tpr",1,0
+"2425","SVM","fn",0,0
+"2426","SVM","fn",0.01,0
+"2427","SVM","fn",0.02,0
+"2428","SVM","fn",0.03,0
+"2429","SVM","fn",0.04,0
+"2430","SVM","fn",0.05,0
+"2431","SVM","fn",0.06,0
+"2432","SVM","fn",0.07,0
+"2433","SVM","fn",0.08,0
+"2434","SVM","fn",0.09,0
+"2435","SVM","fn",0.1,0
+"2436","SVM","fn",0.11,0.5
+"2437","SVM","fn",0.12,2
+"2438","SVM","fn",0.13,3
+"2439","SVM","fn",0.14,3
+"2440","SVM","fn",0.15,3
+"2441","SVM","fn",0.16,3
+"2442","SVM","fn",0.17,4.5
+"2443","SVM","fn",0.18,5
+"2444","SVM","fn",0.19,5
+"2445","SVM","fn",0.2,5
+"2446","SVM","fn",0.21,5
+"2447","SVM","fn",0.22,5
+"2448","SVM","fn",0.23,5
+"2449","SVM","fn",0.24,5
+"2450","SVM","fn",0.25,5
+"2451","SVM","fn",0.26,5
+"2452","SVM","fn",0.27,5
+"2453","SVM","fn",0.28,7
+"2454","SVM","fn",0.29,9
+"2455","SVM","fn",0.3,9
+"2456","SVM","fn",0.31,9
+"2457","SVM","fn",0.32,9
+"2458","SVM","fn",0.33,9
+"2459","SVM","fn",0.34,9
+"2460","SVM","fn",0.35,9.5
+"2461","SVM","fn",0.36,12
+"2462","SVM","fn",0.37,13
+"2463","SVM","fn",0.38,13
+"2464","SVM","fn",0.39,13
+"2465","SVM","fn",0.4,13
+"2466","SVM","fn",0.41,13
+"2467","SVM","fn",0.42,13
+"2468","SVM","fn",0.43,13
+"2469","SVM","fn",0.44,13
+"2470","SVM","fn",0.45,13
+"2471","SVM","fn",0.46,13.5
+"2472","SVM","fn",0.47,14
+"2473","SVM","fn",0.48,15
+"2474","SVM","fn",0.49,15
+"2475","SVM","fn",0.5,15
+"2476","SVM","fn",0.51,15
+"2477","SVM","fn",0.52,15
+"2478","SVM","fn",0.53,15
+"2479","SVM","fn",0.54,15
+"2480","SVM","fn",0.55,15
+"2481","SVM","fn",0.56,15
+"2482","SVM","fn",0.57,15
+"2483","SVM","fn",0.58,15
+"2484","SVM","fn",0.59,15
+"2485","SVM","fn",0.6,15.5
+"2486","SVM","fn",0.61,16
+"2487","SVM","fn",0.62,16
+"2488","SVM","fn",0.63,16
+"2489","SVM","fn",0.64,16
+"2490","SVM","fn",0.65,16
+"2491","SVM","fn",0.66,16
+"2492","SVM","fn",0.67,16
+"2493","SVM","fn",0.68,16
+"2494","SVM","fn",0.69,16
+"2495","SVM","fn",0.7,16
+"2496","SVM","fn",0.71,16
+"2497","SVM","fn",0.72,16.5
+"2498","SVM","fn",0.73,17
+"2499","SVM","fn",0.74,17
+"2500","SVM","fn",0.75,17
+"2501","SVM","fn",0.76,18
+"2502","SVM","fn",0.77,19
+"2503","SVM","fn",0.78,20.5
+"2504","SVM","fn",0.79,21
+"2505","SVM","fn",0.8,22
+"2506","SVM","fn",0.81,23
+"2507","SVM","fn",0.82,24
+"2508","SVM","fn",0.83,29
+"2509","SVM","fn",0.84,60
+"2510","SVM","fn",0.85,112
+"2511","SVM","fn",0.86,122
+"2512","SVM","fn",0.87,125
+"2513","SVM","fn",0.88,130
+"2514","SVM","fn",0.89,130
+"2515","SVM","fn",0.9,132.5
+"2516","SVM","fn",0.91,135
+"2517","SVM","fn",0.92,136
+"2518","SVM","fn",0.93,136
+"2519","SVM","fn",0.94,136
+"2520","SVM","fn",0.95,136.5
+"2521","SVM","fn",0.96,137
+"2522","SVM","fn",0.97,137
+"2523","SVM","fn",0.98,137
+"2524","SVM","fn",0.99,137
+"2525","SVM","fn",1,137
+"2526","SVM","fp",0,86
+"2527","SVM","fp",0.01,86
+"2528","SVM","fp",0.02,86
+"2529","SVM","fp",0.03,86
+"2530","SVM","fp",0.04,86
+"2531","SVM","fp",0.05,86
+"2532","SVM","fp",0.06,85
+"2533","SVM","fp",0.07,81
+"2534","SVM","fp",0.08,78
+"2535","SVM","fp",0.09,76.5
+"2536","SVM","fp",0.1,76
+"2537","SVM","fp",0.11,76
+"2538","SVM","fp",0.12,72.5
+"2539","SVM","fp",0.13,65.5
+"2540","SVM","fp",0.14,59.5
+"2541","SVM","fp",0.15,56
+"2542","SVM","fp",0.16,52.5
+"2543","SVM","fp",0.17,37.5
+"2544","SVM","fp",0.18,33.5
+"2545","SVM","fp",0.19,32
+"2546","SVM","fp",0.2,31
+"2547","SVM","fp",0.21,30
+"2548","SVM","fp",0.22,29
+"2549","SVM","fp",0.23,29
+"2550","SVM","fp",0.24,29
+"2551","SVM","fp",0.25,29
+"2552","SVM","fp",0.26,29
+"2553","SVM","fp",0.27,29
+"2554","SVM","fp",0.28,26.5
+"2555","SVM","fp",0.29,24
+"2556","SVM","fp",0.3,24
+"2557","SVM","fp",0.31,24
+"2558","SVM","fp",0.32,24
+"2559","SVM","fp",0.33,24
+"2560","SVM","fp",0.34,23
+"2561","SVM","fp",0.35,21
+"2562","SVM","fp",0.36,20
+"2563","SVM","fp",0.37,20
+"2564","SVM","fp",0.38,20
+"2565","SVM","fp",0.39,19.5
+"2566","SVM","fp",0.4,17
+"2567","SVM","fp",0.41,17
+"2568","SVM","fp",0.42,16
+"2569","SVM","fp",0.43,16
+"2570","SVM","fp",0.44,16
+"2571","SVM","fp",0.45,16
+"2572","SVM","fp",0.46,16
+"2573","SVM","fp",0.47,16
+"2574","SVM","fp",0.48,15
+"2575","SVM","fp",0.49,14.5
+"2576","SVM","fp",0.5,14
+"2577","SVM","fp",0.51,14
+"2578","SVM","fp",0.52,14
+"2579","SVM","fp",0.53,14
+"2580","SVM","fp",0.54,14
+"2581","SVM","fp",0.55,14
+"2582","SVM","fp",0.56,14
+"2583","SVM","fp",0.57,14
+"2584","SVM","fp",0.58,14
+"2585","SVM","fp",0.59,14
+"2586","SVM","fp",0.6,14
+"2587","SVM","fp",0.61,14
+"2588","SVM","fp",0.62,14
+"2589","SVM","fp",0.63,14
+"2590","SVM","fp",0.64,14
+"2591","SVM","fp",0.65,14
+"2592","SVM","fp",0.66,14
+"2593","SVM","fp",0.67,14
+"2594","SVM","fp",0.68,14
+"2595","SVM","fp",0.69,14
+"2596","SVM","fp",0.7,14
+"2597","SVM","fp",0.71,14
+"2598","SVM","fp",0.72,14
+"2599","SVM","fp",0.73,13.5
+"2600","SVM","fp",0.74,13
+"2601","SVM","fp",0.75,13
+"2602","SVM","fp",0.76,12
+"2603","SVM","fp",0.77,12
+"2604","SVM","fp",0.78,12
+"2605","SVM","fp",0.79,12
+"2606","SVM","fp",0.8,12
+"2607","SVM","fp",0.81,12
+"2608","SVM","fp",0.82,12
+"2609","SVM","fp",0.83,12
+"2610","SVM","fp",0.84,7.5
+"2611","SVM","fp",0.85,2
+"2612","SVM","fp",0.86,1
+"2613","SVM","fp",0.87,1
+"2614","SVM","fp",0.88,0
+"2615","SVM","fp",0.89,0
+"2616","SVM","fp",0.9,0
+"2617","SVM","fp",0.91,0
+"2618","SVM","fp",0.92,0
+"2619","SVM","fp",0.93,0
+"2620","SVM","fp",0.94,0
+"2621","SVM","fp",0.95,0
+"2622","SVM","fp",0.96,0
+"2623","SVM","fp",0.97,0
+"2624","SVM","fp",0.98,0
+"2625","SVM","fp",0.99,0
+"2626","SVM","fp",1,0
+"2627","SVM","ppv",0,0.61
+"2628","SVM","ppv",0.01,0.61
+"2629","SVM","ppv",0.02,0.61
+"2630","SVM","ppv",0.03,0.61
+"2631","SVM","ppv",0.04,0.61
+"2632","SVM","ppv",0.05,0.61
+"2633","SVM","ppv",0.06,0.615
+"2634","SVM","ppv",0.07,0.63
+"2635","SVM","ppv",0.08,0.64
+"2636","SVM","ppv",0.09,0.64
+"2637","SVM","ppv",0.1,0.64
+"2638","SVM","ppv",0.11,0.64
+"2639","SVM","ppv",0.12,0.655
+"2640","SVM","ppv",0.13,0.675
+"2641","SVM","ppv",0.14,0.695
+"2642","SVM","ppv",0.15,0.705
+"2643","SVM","ppv",0.16,0.72
+"2644","SVM","ppv",0.17,0.78
+"2645","SVM","ppv",0.18,0.8
+"2646","SVM","ppv",0.19,0.8
+"2647","SVM","ppv",0.2,0.81
+"2648","SVM","ppv",0.21,0.81
+"2649","SVM","ppv",0.22,0.82
+"2650","SVM","ppv",0.23,0.82
+"2651","SVM","ppv",0.24,0.82
+"2652","SVM","ppv",0.25,0.82
+"2653","SVM","ppv",0.26,0.82
+"2654","SVM","ppv",0.27,0.82
+"2655","SVM","ppv",0.28,0.83
+"2656","SVM","ppv",0.29,0.84
+"2657","SVM","ppv",0.3,0.84
+"2658","SVM","ppv",0.31,0.84
+"2659","SVM","ppv",0.32,0.84
+"2660","SVM","ppv",0.33,0.84
+"2661","SVM","ppv",0.34,0.85
+"2662","SVM","ppv",0.35,0.855
+"2663","SVM","ppv",0.36,0.86
+"2664","SVM","ppv",0.37,0.86
+"2665","SVM","ppv",0.38,0.86
+"2666","SVM","ppv",0.39,0.865
+"2667","SVM","ppv",0.4,0.88
+"2668","SVM","ppv",0.41,0.88
+"2669","SVM","ppv",0.42,0.89
+"2670","SVM","ppv",0.43,0.89
+"2671","SVM","ppv",0.44,0.89
+"2672","SVM","ppv",0.45,0.89
+"2673","SVM","ppv",0.46,0.885
+"2674","SVM","ppv",0.47,0.88
+"2675","SVM","ppv",0.48,0.89
+"2676","SVM","ppv",0.49,0.895
+"2677","SVM","ppv",0.5,0.9
+"2678","SVM","ppv",0.51,0.9
+"2679","SVM","ppv",0.52,0.9
+"2680","SVM","ppv",0.53,0.9
+"2681","SVM","ppv",0.54,0.9
+"2682","SVM","ppv",0.55,0.9
+"2683","SVM","ppv",0.56,0.9
+"2684","SVM","ppv",0.57,0.9
+"2685","SVM","ppv",0.58,0.9
+"2686","SVM","ppv",0.59,0.9
+"2687","SVM","ppv",0.6,0.9
+"2688","SVM","ppv",0.61,0.9
+"2689","SVM","ppv",0.62,0.9
+"2690","SVM","ppv",0.63,0.9
+"2691","SVM","ppv",0.64,0.9
+"2692","SVM","ppv",0.65,0.9
+"2693","SVM","ppv",0.66,0.9
+"2694","SVM","ppv",0.67,0.9
+"2695","SVM","ppv",0.68,0.9
+"2696","SVM","ppv",0.69,0.9
+"2697","SVM","ppv",0.7,0.9
+"2698","SVM","ppv",0.71,0.9
+"2699","SVM","ppv",0.72,0.9
+"2700","SVM","ppv",0.73,0.9
+"2701","SVM","ppv",0.74,0.9
+"2702","SVM","ppv",0.75,0.9
+"2703","SVM","ppv",0.76,0.91
+"2704","SVM","ppv",0.77,0.91
+"2705","SVM","ppv",0.78,0.91
+"2706","SVM","ppv",0.79,0.91
+"2707","SVM","ppv",0.8,0.91
+"2708","SVM","ppv",0.81,0.905
+"2709","SVM","ppv",0.82,0.9
+"2710","SVM","ppv",0.83,0.9
+"2711","SVM","ppv",0.84,0.915
+"2712","SVM","ppv",0.85,0.93
+"2713","SVM","ppv",0.86,0.935
+"2714","SVM","ppv",0.87,0.92
+"2715","SVM","ppv",0.88,1
+"2716","SVM","ppv",0.89,1
+"2717","SVM","ppv",0.9,1
+"2718","SVM","ppv",0.91,1
+"2719","SVM","ppv",0.92,1
+"2720","SVM","ppv",0.93,1
+"2721","SVM","ppv",0.94,1
+"2722","SVM","ppv",0.95,1
+"2723","SVM","ppv",0.96,1
+"2724","SVM","ppv",0.97,1
+"2725","SVM","ppv",0.98,1
+"2726","SVM","ppv",0.99,1
+"2727","SVM","ppv",1,1
+"2728","SVM","tn",0,0
+"2729","SVM","tn",0.01,0
+"2730","SVM","tn",0.02,0
+"2731","SVM","tn",0.03,0
+"2732","SVM","tn",0.04,0
+"2733","SVM","tn",0.05,0
+"2734","SVM","tn",0.06,1
+"2735","SVM","tn",0.07,5
+"2736","SVM","tn",0.08,8
+"2737","SVM","tn",0.09,9.5
+"2738","SVM","tn",0.1,10
+"2739","SVM","tn",0.11,10
+"2740","SVM","tn",0.12,13.5
+"2741","SVM","tn",0.13,20.5
+"2742","SVM","tn",0.14,26.5
+"2743","SVM","tn",0.15,30
+"2744","SVM","tn",0.16,33.5
+"2745","SVM","tn",0.17,48.5
+"2746","SVM","tn",0.18,52.5
+"2747","SVM","tn",0.19,54
+"2748","SVM","tn",0.2,55
+"2749","SVM","tn",0.21,56
+"2750","SVM","tn",0.22,57
+"2751","SVM","tn",0.23,57
+"2752","SVM","tn",0.24,57
+"2753","SVM","tn",0.25,57
+"2754","SVM","tn",0.26,57
+"2755","SVM","tn",0.27,57
+"2756","SVM","tn",0.28,59.5
+"2757","SVM","tn",0.29,62
+"2758","SVM","tn",0.3,62
+"2759","SVM","tn",0.31,62
+"2760","SVM","tn",0.32,62
+"2761","SVM","tn",0.33,62
+"2762","SVM","tn",0.34,63
+"2763","SVM","tn",0.35,65
+"2764","SVM","tn",0.36,66
+"2765","SVM","tn",0.37,66
+"2766","SVM","tn",0.38,66
+"2767","SVM","tn",0.39,66.5
+"2768","SVM","tn",0.4,69
+"2769","SVM","tn",0.41,69
+"2770","SVM","tn",0.42,70
+"2771","SVM","tn",0.43,70
+"2772","SVM","tn",0.44,70
+"2773","SVM","tn",0.45,70
+"2774","SVM","tn",0.46,70
+"2775","SVM","tn",0.47,70
+"2776","SVM","tn",0.48,71
+"2777","SVM","tn",0.49,71.5
+"2778","SVM","tn",0.5,72
+"2779","SVM","tn",0.51,72
+"2780","SVM","tn",0.52,72
+"2781","SVM","tn",0.53,72
+"2782","SVM","tn",0.54,72
+"2783","SVM","tn",0.55,72
+"2784","SVM","tn",0.56,72
+"2785","SVM","tn",0.57,72
+"2786","SVM","tn",0.58,72
+"2787","SVM","tn",0.59,72
+"2788","SVM","tn",0.6,72
+"2789","SVM","tn",0.61,72
+"2790","SVM","tn",0.62,72
+"2791","SVM","tn",0.63,72
+"2792","SVM","tn",0.64,72
+"2793","SVM","tn",0.65,72
+"2794","SVM","tn",0.66,72
+"2795","SVM","tn",0.67,72
+"2796","SVM","tn",0.68,72
+"2797","SVM","tn",0.69,72
+"2798","SVM","tn",0.7,72
+"2799","SVM","tn",0.71,72
+"2800","SVM","tn",0.72,72
+"2801","SVM","tn",0.73,72.5
+"2802","SVM","tn",0.74,73
+"2803","SVM","tn",0.75,73
+"2804","SVM","tn",0.76,74
+"2805","SVM","tn",0.77,74
+"2806","SVM","tn",0.78,74
+"2807","SVM","tn",0.79,74
+"2808","SVM","tn",0.8,74
+"2809","SVM","tn",0.81,74
+"2810","SVM","tn",0.82,74
+"2811","SVM","tn",0.83,74
+"2812","SVM","tn",0.84,78.5
+"2813","SVM","tn",0.85,84
+"2814","SVM","tn",0.86,85
+"2815","SVM","tn",0.87,85
+"2816","SVM","tn",0.88,86
+"2817","SVM","tn",0.89,86
+"2818","SVM","tn",0.9,86
+"2819","SVM","tn",0.91,86
+"2820","SVM","tn",0.92,86
+"2821","SVM","tn",0.93,86
+"2822","SVM","tn",0.94,86
+"2823","SVM","tn",0.95,86
+"2824","SVM","tn",0.96,86
+"2825","SVM","tn",0.97,86
+"2826","SVM","tn",0.98,86
+"2827","SVM","tn",0.99,86
+"2828","SVM","tn",1,86
+"2829","SVM","tp",0,137
+"2830","SVM","tp",0.01,137
+"2831","SVM","tp",0.02,137
+"2832","SVM","tp",0.03,137
+"2833","SVM","tp",0.04,137
+"2834","SVM","tp",0.05,137
+"2835","SVM","tp",0.06,137
+"2836","SVM","tp",0.07,137
+"2837","SVM","tp",0.08,137
+"2838","SVM","tp",0.09,137
+"2839","SVM","tp",0.1,137
+"2840","SVM","tp",0.11,136.5
+"2841","SVM","tp",0.12,135
+"2842","SVM","tp",0.13,134
+"2843","SVM","tp",0.14,134
+"2844","SVM","tp",0.15,134
+"2845","SVM","tp",0.16,134
+"2846","SVM","tp",0.17,132.5
+"2847","SVM","tp",0.18,132
+"2848","SVM","tp",0.19,132
+"2849","SVM","tp",0.2,132
+"2850","SVM","tp",0.21,132
+"2851","SVM","tp",0.22,132
+"2852","SVM","tp",0.23,132
+"2853","SVM","tp",0.24,132
+"2854","SVM","tp",0.25,132
+"2855","SVM","tp",0.26,132
+"2856","SVM","tp",0.27,132
+"2857","SVM","tp",0.28,130
+"2858","SVM","tp",0.29,128
+"2859","SVM","tp",0.3,128
+"2860","SVM","tp",0.31,128
+"2861","SVM","tp",0.32,128
+"2862","SVM","tp",0.33,128
+"2863","SVM","tp",0.34,128
+"2864","SVM","tp",0.35,127.5
+"2865","SVM","tp",0.36,125
+"2866","SVM","tp",0.37,124
+"2867","SVM","tp",0.38,124
+"2868","SVM","tp",0.39,124
+"2869","SVM","tp",0.4,124
+"2870","SVM","tp",0.41,124
+"2871","SVM","tp",0.42,124
+"2872","SVM","tp",0.43,124
+"2873","SVM","tp",0.44,124
+"2874","SVM","tp",0.45,124
+"2875","SVM","tp",0.46,123.5
+"2876","SVM","tp",0.47,123
+"2877","SVM","tp",0.48,122
+"2878","SVM","tp",0.49,122
+"2879","SVM","tp",0.5,122
+"2880","SVM","tp",0.51,122
+"2881","SVM","tp",0.52,122
+"2882","SVM","tp",0.53,122
+"2883","SVM","tp",0.54,122
+"2884","SVM","tp",0.55,122
+"2885","SVM","tp",0.56,122
+"2886","SVM","tp",0.57,122
+"2887","SVM","tp",0.58,122
+"2888","SVM","tp",0.59,122
+"2889","SVM","tp",0.6,121.5
+"2890","SVM","tp",0.61,121
+"2891","SVM","tp",0.62,121
+"2892","SVM","tp",0.63,121
+"2893","SVM","tp",0.64,121
+"2894","SVM","tp",0.65,121
+"2895","SVM","tp",0.66,121
+"2896","SVM","tp",0.67,121
+"2897","SVM","tp",0.68,121
+"2898","SVM","tp",0.69,121
+"2899","SVM","tp",0.7,121
+"2900","SVM","tp",0.71,121
+"2901","SVM","tp",0.72,120.5
+"2902","SVM","tp",0.73,120
+"2903","SVM","tp",0.74,120
+"2904","SVM","tp",0.75,120
+"2905","SVM","tp",0.76,119
+"2906","SVM","tp",0.77,118
+"2907","SVM","tp",0.78,116.5
+"2908","SVM","tp",0.79,116
+"2909","SVM","tp",0.8,115
+"2910","SVM","tp",0.81,114
+"2911","SVM","tp",0.82,113
+"2912","SVM","tp",0.83,108
+"2913","SVM","tp",0.84,77
+"2914","SVM","tp",0.85,25
+"2915","SVM","tp",0.86,15
+"2916","SVM","tp",0.87,12
+"2917","SVM","tp",0.88,7
+"2918","SVM","tp",0.89,7
+"2919","SVM","tp",0.9,4.5
+"2920","SVM","tp",0.91,2
+"2921","SVM","tp",0.92,1
+"2922","SVM","tp",0.93,1
+"2923","SVM","tp",0.94,1
+"2924","SVM","tp",0.95,0.5
+"2925","SVM","tp",0.96,0
+"2926","SVM","tp",0.97,0
+"2927","SVM","tp",0.98,0
+"2928","SVM","tp",0.99,0
+"2929","SVM","tp",1,0
+"2930","SVM","tpr",0,1
+"2931","SVM","tpr",0.01,1
+"2932","SVM","tpr",0.02,1
+"2933","SVM","tpr",0.03,1
+"2934","SVM","tpr",0.04,1
+"2935","SVM","tpr",0.05,1
+"2936","SVM","tpr",0.06,1
+"2937","SVM","tpr",0.07,1
+"2938","SVM","tpr",0.08,1
+"2939","SVM","tpr",0.09,1
+"2940","SVM","tpr",0.1,1
+"2941","SVM","tpr",0.11,0.995
+"2942","SVM","tpr",0.12,0.99
+"2943","SVM","tpr",0.13,0.98
+"2944","SVM","tpr",0.14,0.98
+"2945","SVM","tpr",0.15,0.98
+"2946","SVM","tpr",0.16,0.98
+"2947","SVM","tpr",0.17,0.965
+"2948","SVM","tpr",0.18,0.96
+"2949","SVM","tpr",0.19,0.96
+"2950","SVM","tpr",0.2,0.96
+"2951","SVM","tpr",0.21,0.96
+"2952","SVM","tpr",0.22,0.96
+"2953","SVM","tpr",0.23,0.96
+"2954","SVM","tpr",0.24,0.96
+"2955","SVM","tpr",0.25,0.96
+"2956","SVM","tpr",0.26,0.96
+"2957","SVM","tpr",0.27,0.96
+"2958","SVM","tpr",0.28,0.945
+"2959","SVM","tpr",0.29,0.93
+"2960","SVM","tpr",0.3,0.93
+"2961","SVM","tpr",0.31,0.93
+"2962","SVM","tpr",0.32,0.93
+"2963","SVM","tpr",0.33,0.93
+"2964","SVM","tpr",0.34,0.93
+"2965","SVM","tpr",0.35,0.93
+"2966","SVM","tpr",0.36,0.915
+"2967","SVM","tpr",0.37,0.91
+"2968","SVM","tpr",0.38,0.91
+"2969","SVM","tpr",0.39,0.91
+"2970","SVM","tpr",0.4,0.91
+"2971","SVM","tpr",0.41,0.91
+"2972","SVM","tpr",0.42,0.91
+"2973","SVM","tpr",0.43,0.91
+"2974","SVM","tpr",0.44,0.91
+"2975","SVM","tpr",0.45,0.91
+"2976","SVM","tpr",0.46,0.905
+"2977","SVM","tpr",0.47,0.9
+"2978","SVM","tpr",0.48,0.89
+"2979","SVM","tpr",0.49,0.89
+"2980","SVM","tpr",0.5,0.89
+"2981","SVM","tpr",0.51,0.89
+"2982","SVM","tpr",0.52,0.89
+"2983","SVM","tpr",0.53,0.89
+"2984","SVM","tpr",0.54,0.89
+"2985","SVM","tpr",0.55,0.89
+"2986","SVM","tpr",0.56,0.89
+"2987","SVM","tpr",0.57,0.89
+"2988","SVM","tpr",0.58,0.89
+"2989","SVM","tpr",0.59,0.89
+"2990","SVM","tpr",0.6,0.885
+"2991","SVM","tpr",0.61,0.88
+"2992","SVM","tpr",0.62,0.88
+"2993","SVM","tpr",0.63,0.88
+"2994","SVM","tpr",0.64,0.88
+"2995","SVM","tpr",0.65,0.88
+"2996","SVM","tpr",0.66,0.88
+"2997","SVM","tpr",0.67,0.88
+"2998","SVM","tpr",0.68,0.88
+"2999","SVM","tpr",0.69,0.88
+"3000","SVM","tpr",0.7,0.88
+"3001","SVM","tpr",0.71,0.88
+"3002","SVM","tpr",0.72,0.88
+"3003","SVM","tpr",0.73,0.88
+"3004","SVM","tpr",0.74,0.88
+"3005","SVM","tpr",0.75,0.88
+"3006","SVM","tpr",0.76,0.87
+"3007","SVM","tpr",0.77,0.86
+"3008","SVM","tpr",0.78,0.85
+"3009","SVM","tpr",0.79,0.85
+"3010","SVM","tpr",0.8,0.84
+"3011","SVM","tpr",0.81,0.83
+"3012","SVM","tpr",0.82,0.82
+"3013","SVM","tpr",0.83,0.785
+"3014","SVM","tpr",0.84,0.565
+"3015","SVM","tpr",0.85,0.185
+"3016","SVM","tpr",0.86,0.11
+"3017","SVM","tpr",0.87,0.085
+"3018","SVM","tpr",0.88,0.05
+"3019","SVM","tpr",0.89,0.05
+"3020","SVM","tpr",0.9,0.035
+"3021","SVM","tpr",0.91,0.015
+"3022","SVM","tpr",0.92,0.01
+"3023","SVM","tpr",0.93,0.01
+"3024","SVM","tpr",0.94,0.01
+"3025","SVM","tpr",0.95,0.005
+"3026","SVM","tpr",0.96,0
+"3027","SVM","tpr",0.97,0
+"3028","SVM","tpr",0.98,0
+"3029","SVM","tpr",0.99,0
+"3030","SVM","tpr",1,0

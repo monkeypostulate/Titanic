@@ -1,0 +1,10 @@
+Var	Description
+Sex	Passenger's sex
+Age	Passenger's age
+SibSp	Number of siblings or spouses aboard
+Parch	 Number of parents  or children aboard
+Pclass	Passenger's class
+Ticket	Ticket number
+Fare	Fare
+Cabin	Cabin
+Embarked	Port of embarkation
