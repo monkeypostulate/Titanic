@@ -7,7 +7,7 @@ output:
       css: src/css_style.css
       toc: true # table of content true
       number_sections: true  ## if you want number sections at each table heade
-      code_folding: hide #show
+      code_folding:  show
 
 
 ---
@@ -15,6 +15,9 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+<link rel="icon" href="images/abel_icon.png" type="image/png">
+
 <script src="src/google-analytics.js"></script>
 <script src="src/interactive.js"></script>
 
@@ -27,11 +30,6 @@ The sinking of the  Titanic is one of the most infamous shipwrecks in history. O
 One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
 
 In this challenge, we ask you to complete the analysis of what sorts of people were likely to survive. In particular, we ask you to apply the tools of machine learning to predict which passengers survived the tragedy.
-
-
-
-## Executive Summary
-
 <br>
 
 ![Figure 1:](images\objectives.png)
@@ -40,15 +38,15 @@ In this challenge, we ask you to complete the analysis of what sorts of people w
 ```{r message=FALSE}
 # Load libraries
 library(tidyverse) # Data manipulation
-library(mlr)
+library(mlr) # Interface to a large number of Machine Learning Algorithms
 library(rpart) # Decision Tree
-library(rpart.plot)  # Plot Decision tree
-library(randomForest) # Random forest algorithm
+library(rpart.plot)  # Plot Decision Tree
+library(randomForest) # Random Forest algorithm
 library(ggplot2) # Visualization
 library(plotly) # Interactive visualizations
-set.seed(21) # Specify Seed (Usuful for replications)
+library(kableExtra) #  Build   tables and manipulate table styles.
+set.seed(21) # Use the set.seed  to ensure all results are reproducible
 
-library(kableExtra)
 ```
 
 
@@ -62,64 +60,67 @@ perf.measures<-read.csv('../performance_measures.csv', sep=';')
 
 ```
 
-
-
 ## Data Extraction
 <br> <br>
 Let's load the titanic data using the function **read.csv()**.
-The titanic dataset is stored  as a csv file, and it is in the subfolder titanic.
-*Click the button code to see the R-code.*
+Alternatively, you can use the function **fread()** but you must load the library data.table. 
 
-<div class="Code">
 ```{r  echo=TRUE}
-# Load datasets
-titanic.dataset<-read.csv('titanic\\train.csv') 
+titanic.dataset<-read.csv('titanic/train.csv') # dataset is saved in the subfolder titanic as train.csv, see Figure 2.
 ```
-</div>
+
+You can find the R-code in the following <a href="" target=""> link</a>.
+
+![Figure 2 (Folder structure): The titanic dataset is saved in the subfolder titanic as a csv file. While the images we create are saved in the folder images.](images/folders.png)
 
 
-
-
+<br> <br>
 
 ## Data Exploration
 <br> <br>
 
-There are 10 attributes: 
+Before building any machine algorithm, it is necessary to have a good understanding of the dataset.
+For this purpose, we will use simple tools to obtain some understanding of the dataset.  
+First, we create tables to look at our data, and then we explore the data using plots.
+Data exploration will provide us a guidance on applying the right machine learning algorithm. 
 
-* **Name:** Passenger’s name, 
-* **Sex:** Passenger’s sex, 
-* **Age:** Passenger’s age, 
-* **SibSp:** Number of siblings/spouses aboard, 
-* **Parch:** Number of parents/children aboard, 
-* **Pclass:** Passenger’s class, 
-* **Ticket:** Ticket number, 
-* **Fare:** Fare, 
-* **Cabin:** Cabin, 
-* **Embarked:** Port of embarkation,
+
+Let's have a look at the top 3 rows using the function **head()**. 
+
+```{r }
+titanic.dataset%>%
+  select(-c(PassengerId,Ticket))%>% # Remove columns from summary
+  head(3)%>% # Return the first 3 rows
+  kable()%>%  # Create table in HTML (This code is ONLY necessary for R-markdown and R-shiny Apps)
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))%>% 
+  row_spec(0, bold = T, color = "white", background = "#4056A1") # Style
+```
+
+From the above table, we see that  each passanger has  10 interesting attributes: 
+
+* **Name:** Passenger’s name. 
+* **Sex:** Passenger’s sex. 
+* **Age:** Passenger’s age. 
+* **SibSp:** Number of siblings/spouses aboard. 
+* **Parch:** Number of parents/children aboard. 
+* **Pclass:** Passenger’s class. 
+* **Ticket:** Ticket number. 
+* **Fare:** Fare.
+* **Cabin:** Cabin.  
+* **Embarked:** Port of embarkation. 
 * **Survived:** Survived (1) or died (0).
+<br> <br>
+We  see that Mr. Owen Harris did not survive, while Miss Laina did survive.
+For both passanger, the Cabin information is missing. However, the above table does not tell us what is the media Age of passanger or how many passangers are female/male.
+<br>
+The  function **summarise()** is useful to summarise the attributes in the dataset.
 
 
-
-pclass: A proxy for socio-economic status (SES)
-1st = Upper
-2nd = Middle
-3rd = Lower
-
-Age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
-
-SibSp: The dataset defines family relations in this way...
-Sibling = brother, sister, stepbrother, stepsister
-Spouse = husband, wife (mistresses and fiancés were ignored)
-
-Parch: The dataset defines family relations in this way...
-Parent = mother, father
-Child = daughter, son, stepdaughter, stepson
-Some children travelled only with a nanny, therefore parch=0 for them.
 
 
 
 ```{r}
- options(knitr.kable.NA = '')
+ options(knitr.kable.NA = '') # Hiding NA's when printing table
 titanic.dataset%>%
   select(-c(PassengerId,Name,Ticket))%>%  # Remove columns from summary
   summary()%>% # The function is useful to get quick description of the data
@@ -129,48 +130,49 @@ titanic.dataset%>%
 
 ```
 
-We format the tables using the package <a href="https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html"> knitr </a>.
+We observe that 577 of passangers are male, whilst 314 are female. The average age of the passangers equals 29.70 years old.
+However, the number of passanger without age information is 177. 
+The cabin information is missing for 687 passangers.
+Since several machine learning algorithms cannot handle missing value, it is important to know why missing values occur and what to do with them. 
+Handling missing values will be dicussed later.
+<br>
+<b> Hint</b>: We format the tables using the package <a href="https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html"> knitr</a>.
+<br> <br>
+How you visualize  variables depends on whether they are continous, categorical or a combination of both.
+While for continuous variables, you can  look at the distribution using histograms.   For categorical variables, you can do bar plots. If you want to look at the correlation between two continous variables, you can do a scatterplot.
+On the other hand, if you want to look at the correlation between a continous and a categorical variable, you can do a barplot.
+In R, you can use the functions **plot()**, **hist()** and **barplot()**. 
+However, for nice visualizations the library <a href="https://ggplot2.tidyverse.org/" target="blank">ggplot2 </a> is preferred. 
+<br>
+What makes a plot effective is the depth of a critical analysis displayed.
+In other words, do you have information worth making a plot for? and have you portrayed it accuretely?
+There 4 steps to create an effective plot^[If you would like to learn the DOS and DON'TS of presenting figures, I recommend you the book *The Wall Street Journal Guide to Information Graphics: The Dos and Don'ts of Presenting Data, Facts, and Figures by Dona M. Wong*.].
 
+* **Research**: Identify key data sources to solve your problem. 
+* **Edit:** Identify key message and make numerical adjustemt to enhance your point.
+* **Plot:**  Choose the right plot to present your findings and settings (scale, baseline). 
+* **Review:** Check your plot against your sources.
+<br>
 
-Let's have a lock at the top 3 rows using the function **head()**. 
+In real applications, there are often several data sources to solve your problem and an issue are 1) how to combine datasets, 2) how can your team have access to all the critcal data and 3) how reliable are the data sources. 
+Since the data quality is seldom perfect, it is always a good advice to assess the risk of having two data sources with conflicting stories.
+Imagine two teams presenting to the CEO  different stories and both stories are supported by data. 
+What is a plausible outcome?
+A cascade of work to find and fix all data issue, and what is much worst,  a lost in trust in the data and the teams.
 
-```{r }
-titanic.dataset%>%
-  select(-c(PassengerId,Ticket))%>%
-  head(3)%>%
-  kable()%>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))%>% 
-  row_spec(0, bold = T, color = "white", background = "#4056A1")
-```
 
 <br> <br>
-
-## Visualizations
-<br> <br>
-
-How you visualize a variable depends on whether the variable is categorical or continous. 
-What makes a chart effective is the depth of a critical analysis displayed.  
-In other words, do you have information worth making a chart for? and have you portrayed it accuretely?
-There 4 steps to create an effective chart^[If you would like to learn the DOS and DON'TS of presenting figures, I recommend you the book *The Wall Street Journal Guide to Information Graphics: The Dos and Don'ts of Presenting Data, Facts, and Figures by Dona M. Wong*.].
-
-* **Research**: 
-* **Edit:** identify key message, make numerical adjustemt to enhance your point.
-* **Plot:**  choose the right plot to present your findings and settings (scale, baseline). 
-* **Review:** check your plot against your sources.
-
-
-
 <button  onclick="plusDivs(-1)"  class="btn">&#10094; Plot</button>
 <button  onclick="plusDivs(1)"  class="btn">Plot &#10095;</button>
   
 
 <div class="plots">
 <br>
-Let's look at the age distribution of those passangers who survived and those who didn't. 
+Let's compare the age distributions of those passangers who survived and those who didn't. 
 The plot below shows that the survival chances of children are relatively high.
-
-
-
+In the density plot, we  visualize the estimated probability distribution of Age.
+The most common procedure to estimate the density function is called kernel density estimation.
+Alternatively to the density plot, you can do a histogram.
 
 ```{r warning=FALSE}
 
@@ -182,7 +184,8 @@ g<-titanic.dataset%>%
   scale_fill_manual('Survive',values=col1)+
   theme_classic()+ 
   ylab('Density') # Convert ggplot to  an interctive plot with plotly
-ggplotly(g)
+
+ggplotly(g, tooltip = c("text"))
 
 ```
 
@@ -191,9 +194,11 @@ ggplotly(g)
 
 <div class='plots' style="display: none">
 
-We can plot the distribution of categorical variables using bar charts.
+We plot a histogram to compare how many passangers where in each class. 
+From the histogram, we see that most of the passangers were in the 3rd Class, and most of the passangers in the 3rd Class did not survive.
 
-```{r}
+
+```{r, warning=FALSE}
 
 col1<-c('0'='#E8A87C','1'='#85CDCA')
 
@@ -201,13 +206,17 @@ g<-titanic.dataset%>%
   group_by(Pclass,Survived=factor(Survived))%>%
   summarise(Total=dplyr::n())%>%
   ggplot()+
-  geom_bar(aes(x=Pclass,y=Total,fill=Survived),
-           stat='identity', position='fill')+
+  geom_bar(aes(x=Pclass,y=Total,fill=Survived,
+               text=paste(" Class: ",Pclass,
+                          "<br> Survived: ",ifelse(Survived==0,"No","Yes"),
+                          " <br> Total passangers: ",Total)),
+           stat='identity')+
   scale_fill_manual('Survive',values=col1)+
   theme_classic()+xlab('Pclass')+
-  ylab('')
+  ylab('Number of Passangers')+xlab(' Passenger’s class')
 # Convert ggplot to  an interctive plot with plotly
-ggplotly(g)
+ggplotly(g,
+         tooltip = "text")
 ```
 
 
@@ -218,7 +227,9 @@ Source</a>
 
 <div class="plots" style="display: none">
 
-An alternative to display the distribtuion broken down by a categorical variable is the *boxplot*. A boxplot makes it easier to compare distributions,
+To compare the distribution of a continous variable for different groups, we can do a boxplot.
+The boxplox below, shows that median age of passangers in 3rd Class is smaller than the median age of passangers in the 2nd and 1st Classes.
+
 
 ```{r warning=FALSE}
 col1<-c('0'='#E8A87C','1'='#85CDCA')
@@ -227,7 +238,8 @@ g<-titanic.dataset%>%
   mutate(Pclass=factor(Pclass))%>%
   ggplot()+
   geom_boxplot(aes(Pclass,Age), fill='#E8A87C', color='#85CDCA')+
-  theme_classic()
+  theme_classic()+
+  xlab(' Passenger’s class')
 # Convert ggplot to  an interctive plot with plotly
 ggplotly(g)
 ```
@@ -236,39 +248,39 @@ ggplotly(g)
 
 The interactive plots are done using the library **plotly**. 
 The advantage of creating interactive plots with plotly and ggptlot are twofold.
-First, you create a ggplot which can be saved as png, pdf, etc., and you can use this plots in powerpoint presentations, add them in word documents. If you want to save your ggplot as pdf, you replace the command *ggplotly(g)* with **ggsave(g)**.
-Second, creating an interactive plot after using ggplot requires one function **ggplotly()**.
+First, you create a ggplot which can be saved as png, pdf, and you can use these plots in Powerpoint presentations or Word documents. You can save your plot as a png by replacing the command *ggplotly(g)* by **ggsave(g,'images/histogram_plot.png')**.
+Second, creating an interactive plot after using ggplot requires one line of code,  **ggplotly(g)**.
 If you would like to learn more about plotly, visit the following 
-<a href="https://plot.ly/r/" target="blank"> page</a>.
+<a href="https://plot.ly/r/" target="blank"> link</a>. 
+A recommended library to create Powerpoint presentation using R is  <a href="https://www.r-bloggers.com/create-powerpoint-presentations-from-r-with-the-officer-package/" target="blank">officer</a>.
  
 <br>
 <br>
 
 ## Data Cleaning
 <br> <br>
-The process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data. Data cleansing may be performed interactively with data wrangling tools, or as batch processing through scripting.
-
-## Filling Missing Values techniques:
-<br> <br>
+Now that we have a better understanding of our data, i.e. existence of missing values in some variables, we move to the Data cleaning phase. Data cleaning is the process of 
+detecting missing, incorrect or inaccurate parts of the data and then filling, replacing, modifying, or deleting where it is needed.
+<br>
 Several Machine Learning algorithms do not work with missing values.
-These are a some techniques to handle missing values: 
+A list of  techniques to handle missing values: 
 
 * Do nothing.
 * Remove observations with missing values (raws and/or columns)
 * Imputation Using (Mean/Median) Values.
-* Advantage:  easy and fast.
-* Disadvantage: it doesn’t consider the correlations between features.
 * Imputation Using (Most Frequent) or (Zero/Constant) Values.
 * Imputation Using Deep Learning.
 * Imputation Using k-NN.
 
-Our choice is **imputation using Mean**.
+Our choice is **imputation using Mean** for the age variable The advantage of imputation is that it is easy and fast, but the disadvantage is that it doesn’t consider the correlations between features.
+Given that the Cabin variable has many missing values, we decide not to use it in our machine learning algorithms.
+
 ```{r}
-# Calculate Average age
-m.Age<-mean(titanic.dataset$Age,na.rm=T) 
+
+m.Age<-mean(titanic.dataset$Age,na.rm=T)  # Calculate Average age
 
 titanic.dataset<-titanic.dataset%>%
-  mutate(Age=replace_na(Age,m.Age)) 
+  mutate(Age=replace_na(Age,m.Age)) # Impute the missing values
 
 ```
 If you would like to know more about using k-NN for data imputations, here are a few references: <a href="https://towardsdatascience.com/the-use-of-knn-for-missing-values-cf33d935c637" target="blank">The use of KNN for missing values</a>.
@@ -277,7 +289,22 @@ If you would like to know more about using k-NN for data imputations, here are a
 
 ## Split data into train and test data
 <br> <br>
-![Figure 2: ](images\traintestdata.png)
+There are several measures to evaluate the abilities such as accuracy, log-loss function among others.  
+Unfortunately, the choice of performance measure is not straightforward.
+The performance of any machine learning algorithm relates to its prediction capabilities on new data. 
+We therefore split our data into two disjoint datasets: 1) training dataset and 2) test dataset.
+With the training data, we train our machine learning algorithm.
+During the training phase, we compute some error measures and reduce the error, i.e. we simply solve an optimization proble.
+Afterwards, we evaluate the performance of our algorithm with the test data. 
+
+How do you split the data? What is the right size of the train and the test data? How do we choose which observations goes to the train dataset and which to the test?
+A rule of thumb suggest a 80%-20% split, and we randomize the allocation of the observations the train and test datasets.
+
+
+ ![Figure 3:](images/traintestdata.png#right)
+
+
+
 
 
 ```{r}
@@ -310,47 +337,90 @@ titanic.test<-titanic.test[,columns]
 
 ## Machine Learning Algorithms
 <br> <br>
-![Figure 3:](images\models.png)
 
+![Figure 4: ](images\models.png)
 
+<br> <br>
 
 ## Decision Tree
 <br> <br>
-Decision trees partition the feature space into a set of rectangles, and then fit a simple model in each one (e.g. a costant).  A decision tree is a tree whose inner nodes represen features. Each edge stands for an feature value, and each leaf node is given a class value (i.e. a constant).
-Decision trees are fairly intuitive and their predictions are easy to interpret. 
+We can imagine a  decision tree as a tree whose inner nodes represen features, each edge stands for a feature value, and each leaf node is given a class value (i.e. a constant). See Figure 5.
+An advantage of decision trees over more complex algorithms is that they are fairly intuitive and their predictions are easy to interpret. 
+Further, decisions trees are a fundamental component of Adaboosting and Random Forest.
+On the other hand, a major problem with them is their high variance, i.e. often a small change in the data can result in a completely different tree structure. 
+As we will see in the next section, Random Forest help us to reduce the high variance problem.
 
 
 
+
+![Figure 5: ](images/tree.png)
+
+
+
+
+
+
+
+We build our decision tree using the packages   <a href="https://mlr.mlr-org.com/" target="blank">mlr</a> and **rpart**.
+First, we create a Classification task using the function **makeClassifTask()**.
+The classification task will be used to construct our decision tree, and later our Random Forest. 
+The classification task can also be used to build logistic regressions or Adaboosting among other classification algorithms.
+
+```{r}
+
+titanic.task<-makeClassifTask(id='titanic',
+                                data=titanic.train,
+                                target='Survived') 
+```
+<br> <br>
+
+To construct our decision tree, we call the function **makeLearner()** and set the parameter *cl* to  *classif.rpart*.  If you would like to know all the algorithms you can use for a classification problem, you can call the function **listLearners()** or click  <a href="tables/mlr_tables.html" target="blank">here</a>.
+By stating the parameter *predict.type*   equal to *prob*, our predictions  will return probabilities. 
+```{r}
+dt.model<-'classif.rpart' # The classification
+dt.learner<-makeLearner(cl=dt.model,
+                            predict.type = "prob",
+                            par.vals = list(maxdepth=3))
+```
+<br> <br>
+We train our model calling the function **train()**, 
+and we make predictions on the test data (titanic.test) using the function **predict()**.
+
+```{r}
+dt.model<-mlr::train(learner=dt.learner,
+                     task=titanic.task) # Train Phase
+pred.dt<-predict(dt.model,
+                         newdata =titanic.test) # Predictions on new data
+```
+<br> <br>  
 <button  onclick="plusDivs3(-1)"  class="btn">&#10094;Tree</button>
 <button  onclick="plusDivs3(1)"  class="btn">Tree &#10095;</button>
-  
+<br> <br>  
 
 <div class="decision_tree">
-![Figure: ](images/tree.png)
-</div>
+### Visualizing Decision Trees 
 
-<div class="decision_tree" style="display:none">
+Visualizing the decision tree is possible using the function **rpart.plot()**.
+However, we need to extract the model with **getLearnerModel()**, since we are using the package **mlr** to build our models.
+
+
+
 ```{r}
-chosen.model<-'classif.rpart'
-classifi.model<-makeClassifTask(id='titanic',
-                                data=titanic.train,
-                                target='Survived')
-
-chosen.learner<-makeLearner(chosen.model,
-                            predict.type = "prob",
-                            par.vals = list())
-
-
-train.model<-mlr::train(learner=chosen.learner,
-                     task=classifi.model)
-
-pred.classif<-predict(train.model,
-                         newdata =titanic.test)
-
-dt.model<-getLearnerModel(train.model)
-
-rpart.plot(getLearnerModel(train.model),roundint=FALSE)
+extract.dt<-getLearnerModel(dt.model)
+rpart.plot(extract.dt,roundint=FALSE)
 ```
+
+
+Assumes $X$ is a passanager, and you want to predict if $X$ will survive or not the titanic disaster. First, you start with the root: this nodes ask you if the sex of $X$ is male or not.
+If  $X$ is a male, then you move down to the left node. 
+The next question is if the age of the passanger is greater or equal than $6.5$.
+If the age is greater than $6.5$, then you move down to the left and you end up in a leaf, and the model predicts that passanger $X$ will not survive.
+On the other hand, if the age of the passanger is smaller than $6.5$, then you move to the right.
+The next question is if the passanger has more than $2.5$ siblings.
+If the answer is yes, you move to the left leaf, and the model predicts that $X$ will not survive.
+If the answer is no, you move to the right leaf, and the model predicts that $X$ will survive
+Interesting, our model predicts that the only male with a chance of surving are kids below 6.5 years old with no more than two siblings.
+
 </div>
 
 <div class="decision_tree" style="display: none">
@@ -358,24 +428,37 @@ rpart.plot(getLearnerModel(train.model),roundint=FALSE)
 
 ### Variable Importance
 
+Variable importance is an index of which predictors are most effective for predicting the response variable, i.e. Survive.
+Next, we plot the variable importance.
 
-```{r}
-var.importance<-data.frame('Variable'=names(dt.model$variable.importance),
-           'Importance'=dt.model$variable.importance)
+```{r, warning=FALSE}
+var.importance<-data.frame('Variable'=names(extract.dt$variable.importance),
+           'Importance'=extract.dt$variable.importance) # Create table used in ggplot
 
-dt.varimport<-var.importance%>%
-  ggplot()+
-  geom_bar(aes(x=reorder(Variable,Importance),y=Importance),
+g.VarImp<-var.importance%>%
+  head(4)%>% # Only plot the 4 most important variables
+ggplot()+
+  geom_bar(aes(x=reorder(Variable,Importance),y=Importance,
+               text= paste0(
+                 "Variable:",Variable,
+                 "<br> Importance:",round(Importance)
+               )),
            stat='identity',
-           fill='#F13C20')+
+           fill='#F13C20'
+           )+
   coord_flip()+
   theme_classic()+
   xlab('Variable Importance')+
   ylab('Variable')
 
-
-ggplotly(dt.varimport)
+ggplotly(g.VarImp,
+         tooltip = "text")
 ```
+The most important variables for predicting the probability of surviving is Sex.
+This finding is not surprising knowing the code "Women and children first".
+The second and third most important variables are Fare and Pclass, respectively.
+Alternatively, you can extract the variable importance calling the command *getFeatureImportance(dt.model)*.
+
 
 </div>
 
@@ -397,35 +480,29 @@ ggplotly(dt.varimport)
 ## Random Forest
 <br> <br>
 
-A random forest is an ensembe of decision trees trained via the boostraping aggregating method (bagging).
-With random forest, we get a diverse of classifier by training decision trees on different random subsets of the training dataset. When sampling is performed with replacement, the methid is called *bagging*. When the sampling is performed without replacement, it is called pasting.
-The motivation
-Once all predictors are trained, the ensembe can make a predictions for a new data point by aggregating the predictions of all predictors.
-Generally, a random forest has a lower variance than a single decision tree trained on the original training dataset.
+A random forest is an ensembe of decision trees trained via the boostraping aggregating method (bagging), see Figure 4.
+By using the random forest, we get a diverse of classifier by training decision trees on different random subsets of the training dataset. When the random sampling is performed with replacement, the method is called **bagging**, while it is called **pasting**  when the random sampling is performed without replacement.
+Once all decision trees are trained, the ensembe can make a predictions for a new data point by aggregating the predictions of all decision trees.
+For classification problem, we do it via a mayority vote.
+An advantage of random forest is that they tend to have a lower variance than a single decision tree trained on the same training dataset.
+Furhter, random forest are  not too slow compare to Adaboosting and Neural Networks, and it has a good performance (good Accuracy, Precision and sensitivity).
 
 
-We decide to use the random forest since it is not too slow compare to Adaboosting and Neural Networks, and it has a good performance (good Accuracy, Precision and sensitivity).
 
 
-![Figure 4:](images\RF.png)
+![Figure 6:](images\RF.png)
 
-
-```{r }
-# Model: Random Forest
-chosen.learner<-'classif.randomForest'
-
-
-```
 
 
 
 ## Tune Model
 <br> <br>
-Almost all machine learning algorithms have hyperparameters, specifications to control the algorithm's performance.
-The values of the hyperparameters are not adapted by the training algorithm itselt.
-The hyperparameters cannot simply be learned with the training set, since it would always choose the most complex models and it would result in overfitting. 
-To solve this proble, we need a validation set of examples that the training algorithm does not observe.
+Almost all machine learning algorithms have hyperparameters, specifications to control the algorithm’s performance.
+Examples of hyperparameters of the random forest are  the number of trees,
+the max depth for each tree, the splitting criteria (Gini or Information gain).
+An extended list of hyperparameters  for random forest can be found in the <a href="" target="blank"> link </a>.
 
+To optimize our random forest, we have as hyperparameters the number of trees *ntree* and *mtry*.
 
 ```{r}
 # ##################################
@@ -442,17 +519,28 @@ discrete_ps = makeParamSet(
 
 ### Cross validation (K-fold)
 <br>  <br>
-Cross validation is a widely used method for estimating prediction error. 
-Ideally, if we have enoguh  data, we would set aside a validation set and use it to assess the performance of our prediction model.
-The K-fold cross validation uses part of the train data to fit the model, and a different part to test it.
-We split the data into K equal-sized parts.
-We fit train the model with K-1 parts and test it with the kth part of the data.
-We do this for $k\in \{1,...,K\}$, and combine the K estimates of prediction error.
+The hyperparameters cannot merely be learned with the training dataset since it would always choose the most sophisticated models, and it would result in overfitting. 
+If we have enoguh  data, we would set aside a validation set and use it to assess the performance of the model under distinct hyperparameters.
+Unfortunately, quite often we cannot split the training data and we must use methods such as Cross validation.
+Cross validation is a widely used method for assessing how the results of a machine learing algorithm generalize to an independent data set.
+The general idea is to use part of the train data to fit the model, and a different part to test it.
+
+The general procedure is as follows:
+
+* Shuffle the dataset randomly. 
+* Split the data into $k$ sets, $S_{1},...,S_{k}$. 
+* For each set, $S_{i}$:
+  + Take $S_{i}$ as test data set.
+  + Take the remaining $K-1$ sets as a training dataset, $\cup_{k \neq i}S_{k}$. 
+  + Estimate a model using the training data and evaluate it on the test data
+* Summarize the perfomance of the model by taking the average of the evaluation scores. 
+
+ When the sets are disjoint sets, it is called $K$-fold cross-validation.
 
 
-![Figure 6:](images\RandomForest.png)
 
-
+Doing Cross validation using *mlr* is quite simple.
+First, you call the function **makeResampleDesc()** and speciy a $10$-fold cross validation by setting *method='CV'* and *iters=10*.
 
 ```{r }
 # ##################################
@@ -463,16 +551,15 @@ We do this for $k\in \{1,...,K\}$, and combine the K estimates of prediction err
 
   ctrl<-makeTuneControlGrid()
 ```  
-An alernative to 10-fold is one-leave out. However, since the dataset is not small, the one-leavel out is computational expensive.
+An alernative to 10-fold is one-leave out which can be done using the same function but setting *method="LOO"*. 
+However, since the dataset is not small, the one-leavel out is computationally expensive.
+<br> <br>
 
-
-
-
-
+Similar to decision trees, we construct our random forest using the function **makeLearner()**.
 
 ```{r }
-  chosen.model<-  'classif.randomForest'
-  chosen.learner<-makeLearner(chosen.model,
+  rf.model<-  'classif.randomForest' # Chosen algorithm is a random forest
+  rf.learner<-makeLearner(rf.model,
                               predict.type = "prob",
                               par.vals = list())
 
@@ -481,11 +568,19 @@ An alernative to 10-fold is one-leave out. However, since the dataset is not sma
 
 
 ### Optimal Model
+
+
+ We perform the Cross validation for every hyperparameter calling the function **tuneParamst()**.
+ 
+ 
+
 ```{r message=FALSE, warning=FALSE}
-  optimal.rf<-tuneParams(chosen.learner, task = classifi.model, resampling =
-                    rdesc,
-                  par.set = discrete_ps, control=ctrl,
-                  measures = list(acc,mmce,timetrain,f1,logloss)) # measures to be calculated
+  optimal.rf<-tuneParams(learner=rf.learner, # Classification: Random Forest
+                         task = titanic.task, 
+                         resampling =rdesc, # Cross Validation
+                  par.set = discrete_ps, # Hyperparameter Space
+                  control=ctrl, # Grid Search
+                  measures = list(acc,mmce,timetrain,f1,logloss)) # Performance Measures
   
 cv.output = generateHyperParsEffectData(optimal.rf)
 ```
@@ -496,17 +591,19 @@ cv.output = generateHyperParsEffectData(optimal.rf)
 ## #######################################
 # Get Optimal mode#
 # ########################################
-chosen.learner<-makeLearner(chosen.model,
+rf.learner<-makeLearner(rf.model,
                             predict.type = "prob",
                             par.vals = list(ntree=optimal.rf$x$ntree,
                                             mtry=optimal.rf$x$mtry))
 
-train.model<-mlr::train(learner=chosen.learner,
-                        task=classifi.model)
+rf.model<-mlr::train(learner=rf.learner,
+                        task=titanic.task)
 
 
 ```
 
+
+![Figure 7:](images\RandomForest.png)
 
 ## Model Performance
 <br> <br>
@@ -521,19 +618,18 @@ kable%>%
 
 
 
-
 ```{r}
 # ##################################
 # Predictions (with optimal model)
-pred.classif<-predict(train.model,
+pred.rf<-predict(rf.model,
                       newdata =titanic.test)
 # Performance Measures
 chosen.measures<-list(acc,mmce,ppv,
                       tpr,f1,gpr,
                       auc,logloss,timetrain)
 
-best.model.per<-performance(pred.classif, measures =chosen.measures,
-            model=train.model)
+best.model.per<-performance(pred.rf, measures =chosen.measures,
+            model=rf.model)
 
 
 
@@ -559,20 +655,22 @@ best.model.per<-performance(pred.classif, measures =chosen.measures,
 
 ```{r }
 
-perf.data<-generateThreshVsPerfData(pred.classif, list(fpr,ppv, tpr))
 
-col<-c('Precision'='#85CDCA','Sensitivity'='#E8A87C')
+dt.perf.data<-generateThreshVsPerfData(pred.dt, list(fpr,ppv, tpr))
+rf.perf.data<-generateThreshVsPerfData(pred.rf, list(fpr,ppv, tpr))
 
-g<-perf.data$data%>%
-      ggplot()+
-      geom_line(aes(x=threshold,y=ppv,col='Precision'), lwd=1.1)+
-      geom_line(aes(x=threshold,y=tpr,col='Sensitivity'), lwd=1.1)+
-      theme_classic()+
-      xlab('Threshold')+ylab('')+ggtitle('Precision & Sensitivity')+
-      scale_color_manual(values=col,'')+
-      scale_linetype_manual(values=c('solid','dashed'),'Measure')
+col<-c('Random Forest'='#C38D9E','Decision Tree'='red')
 
-ggplotly(g)
+roc.plot<-
+  ggplot()+
+  geom_line(data=rf.perf.data$data,aes(x=fpr,y=tpr,col='Random Forest'), cex=1.2)+
+  geom_line(data=dt.perf.data$data,aes(x=fpr,y=tpr,col='Decision Tree'), cex=1.2)+
+  xlab('False positive rate')+ylab('True positive rate')+
+  ggtitle('ROC curve')+theme_classic()+
+  scale_color_manual(values=col,'')+
+  geom_abline(intercept=0,slope=1)
+
+ggplotly(roc.plot)
 
 ```
 </div>
@@ -592,7 +690,7 @@ The ideal machine learning algorithm would have a curve which consists only of t
 ```{r}
 col<-c('Random Forest'='#C38D9E')
 
-roc.plot<-perf.data$data%>%
+roc.plot<-rf.perf.data$data%>%
       ggplot()+
       geom_line(aes(x=fpr,y=tpr,col='Random Forest'), cex=1.2)+
       xlab('False positive rate')+ylab('True positive rate')+
