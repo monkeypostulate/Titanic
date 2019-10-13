@@ -21,9 +21,27 @@ knitr::opts_chunk$set(echo = TRUE)
 <script src="src/google-analytics.js"></script>
 <script src="src/interactive.js"></script>
 
-# Titanic challenge
- 
 
+# Executive Summary
+
+## Purpose
+
+We study the titanic dataset: 1) Identify passanger groups with the highest/lowest risk, 2) For any passanger, quantify the likelihood to survive and 3) clear, reliable heuristic for planning and prevention. 
+We provide an introduction on how to use the mlr framework in R. 
+After reading this tutorial, you should know how to build decision trees and random forest models using mlr. 
+Further, you will know how to measure if your model is good.
+Most of our visualisations are interactive with ggplot$+$plotly.
+
+
+We also design an <a href="http://abelgabel.com:3838/titanic_mlr/" target="blanck">R-shiny app</a> using the R-code in this script.
+
+
+
+
+![Figure 1:](images\objectives.png)
+
+
+## Titanic challenge
 
 The sinking of the  Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. 
 
@@ -32,8 +50,10 @@ One of the reasons that the shipwreck led to such loss of life was that there we
 In this challenge, we ask you to complete the analysis of what sorts of people were likely to survive. In particular, we ask you to apply the tools of machine learning to predict which passengers survived the tragedy.
 <br>
 
-![Figure 1:](images\objectives.png)
 
+# Data
+
+The first step in our journey is loading libraries and reading the data into R.
 
 ```{r message=FALSE}
 # Load libraries
@@ -52,8 +72,7 @@ set.seed(21) # Use the set.seed  to ensure all results are reproducible
 
 
 
-# Data
-
+ 
 ```{r echo=FALSE}
 
 perf.measures<-read.csv('../performance_measures.csv', sep=';')
@@ -570,7 +589,7 @@ Similar to decision trees, we construct our random forest using the function **m
 ### Optimal Model
 
 
- We perform the Cross validation for every hyperparameter calling the function **tuneParamst()**.
+ We perform the Cross validation for every hyperparameter calling the function **tuneParams()**.
  
  
 
@@ -584,17 +603,19 @@ Similar to decision trees, we construct our random forest using the function **m
   
 cv.output = generateHyperParsEffectData(optimal.rf)
 ```
-
-
-#### Train Model
+The optimal hyperparameters are 1) number of trees equals $100$ (optimal.rf\$x\$ntree), and 2) $mtry$ equals $3$ (optimal.rf\$x\$mtry).
+<br>
+Finally, we train our Random Forest with the optimal hyperparameters.
 ```{r message=FALSE,warning=FALSE}
 ## #######################################
 # Get Optimal mode#
 # ########################################
 rf.learner<-makeLearner(rf.model,
                             predict.type = "prob",
-                            par.vals = list(ntree=optimal.rf$x$ntree,
-                                            mtry=optimal.rf$x$mtry))
+                            par.vals = list(
+                              ntree=optimal.rf$x$ntree, # Optimal Number of trees
+                              mtry=optimal.rf$x$mtry #Optimal mtry value
+                                            ))
 
 rf.model<-mlr::train(learner=rf.learner,
                         task=titanic.task)
@@ -710,4 +731,11 @@ roc.plot<-rf.perf.data$data%>%
 
 
 # References
+
+https://arxiv.org/pdf/1609.06146.pdf
+
+https://towardsdatascience.com/meta-machine-learning-packages-in-r-c3e869b53ed6
+
+
+
 
